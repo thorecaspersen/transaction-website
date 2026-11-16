@@ -1,0 +1,84 @@
+.wt {
+  --wt-w: 200px;
+  --wt-metal: #2c2c31;
+  width: var(--wt-w);
+  max-width: 100%;
+  flex: none;
+  container-type: inline-size;
+  position: relative;
+}
+
+.wt-case {
+  position: relative;
+  background:
+    linear-gradient(150deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0) 34%),
+    var(--wt-metal);
+  box-shadow:
+    inset 0 0 0 0.6cqw rgba(255, 255, 255, 0.14),
+    inset 0 0 0 2.4cqw rgba(0, 0, 0, 0.62),
+    0 4cqw 9cqw -3cqw rgba(0, 0, 0, 0.5),
+    0 14cqw 24cqw -10cqw rgba(0, 0, 0, 0.45);
+}
+
+.wt-case::after {
+  content: "";
+  position: absolute;
+  right: -3.4cqw;
+  width: 4.4cqw;
+  border-radius: 1.6cqw;
+  background: linear-gradient(90deg, #1c1c20, #5b5b62 55%, #2c2c31);
+}
+
+.wt-screen {
+  position: relative;
+  overflow: hidden;
+  background: #000;
+  isolation: isolate;
+}
+
+.wt-shot {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.wt--apple .wt-case {
+  padding: 8cqw 7cqw;
+  border-radius: 27cqw;
+}
+
+.wt--apple .wt-case::before {
+  content: "";
+  position: absolute;
+  right: -1.6cqw;
+  top: 54%;
+  width: 2.4cqw;
+  height: 22%;
+  border-radius: 1.2cqw;
+  background: #232327;
+}
+
+.wt--apple .wt-case::after {
+  top: 24%;
+  height: 15%;
+}
+
+.wt--apple .wt-screen {
+  aspect-ratio: 416 / 496;
+  border-radius: 15cqw;
+}
+
+.wt--round .wt-case {
+  padding: 7.5cqw;
+  border-radius: 50%;
+}
+
+.wt--round .wt-case::after {
+  top: 41%;
+  height: 18%;
+}
+
+.wt--round .wt-screen {
+  aspect-ratio: 1;
+  border-radius: 50%;
+}

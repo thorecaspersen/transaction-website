@@ -1,0 +1,82 @@
+.ph {
+  --ph-w: 300px;
+  --ph-frame: #1d1d21;
+  --ph-edge: #3a3a40;
+  width: var(--ph-w);
+  max-width: 100%;
+  margin: 0;
+  flex: none;
+  container-type: inline-size;
+  position: relative;
+}
+
+.ph-frame {
+  position: relative;
+  border-radius: 15.5cqw;
+  padding: 2.6cqw;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 28%),
+    var(--ph-frame);
+  box-shadow:
+    inset 0 0 0 0.45cqw var(--ph-edge),
+    inset 0 0 0 1cqw rgba(0, 0, 0, 0.65),
+    0 2.5cqw 6cqw -1.5cqw rgba(0, 0, 0, 0.45),
+    0 10cqw 18cqw -6cqw rgba(0, 0, 0, 0.4);
+}
+
+.ph-frame::before,
+.ph-frame::after {
+  content: "";
+  position: absolute;
+  width: 0.9cqw;
+  border-radius: 0.5cqw;
+  background: var(--ph-edge);
+}
+
+.ph-frame::before {
+  left: -0.7cqw;
+  top: 24%;
+  height: 7%;
+  box-shadow: 0 11cqw 0 var(--ph-edge), 0 22cqw 0 var(--ph-edge);
+}
+
+.ph-frame::after {
+  right: -0.7cqw;
+  top: 32%;
+  height: 12%;
+}
+
+.ph-screen {
+  position: relative;
+  aspect-ratio: var(--ph-ar, 402 / 874);
+  border-radius: 13cqw;
+  overflow: hidden;
+  background: #111827;
+  isolation: isolate;
+}
+
+.ph-shot {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ph-island {
+  position: absolute;
+  left: 50%;
+  top: 2.7cqw;
+  width: 31%;
+  height: 9.2cqw;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: #000;
+  z-index: 2;
+}
+
+.ph-hot {
+  position: absolute;
+  border-radius: 2.4cqw;
+  pointer-events: none;
+}

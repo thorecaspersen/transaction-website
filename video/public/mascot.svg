@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Transaction">
+<g fill="#d1d5db"><circle cx="76" cy="516" r="10"/><circle cx="180" cy="518" r="15"/><circle cx="127" cy="574" r="12"/><circle cx="158" cy="626" r="10"/></g>
+<g transform="rotate(-10 515 525)">
+<rect x="155" y="298" width="720" height="454" rx="72" fill="#3b82f6"/>
+<rect x="232" y="437" width="150" height="128" rx="30" fill="#fbbf24"/>
+<path d="M307 437v128M232 480h150M232 522h150" stroke="#d97706" stroke-width="9" fill="none"/>
+<path d="M414 468q38-18 80-8M404 520h92M416 568q40 18 84 4" stroke="#fff" stroke-width="15" stroke-linecap="round" fill="none"/>
+<circle cx="585" cy="515" r="56" fill="#60a5fa"/>
+<circle cx="765" cy="500" r="56" fill="#60a5fa"/>
+<circle cx="577" cy="533" r="24" fill="#b48ae0"/>
+<circle cx="779" cy="517" r="24" fill="#b48ae0"/>
+<path d="M548 380l52 28-40 37M742 368l-42 34 50 26" stroke="#0f172a" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="680" cy="520" r="25" fill="#0f172a"/>
+<circle cx="680" cy="520" r="12" fill="#1e40af"/>
+<path d="M262 680h86M395 680h86M528 680h86M660 680h86" stroke="#93c5fd" stroke-width="24" stroke-linecap="round" opacity=".85"/>
+<path d="M792 318c-14 18-22 32-18 48 4 13 16 20 28 16 14-5 18-20 12-34-5-12-13-20-22-30z" fill="#bfdbfe"/>
+</g>
+</svg>

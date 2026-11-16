@@ -1,0 +1,15 @@
+{
+  "name": "transaction-film",
+  "private": true,
+  "scripts": {
+    "still": "remotion still src/index.js film-en ../shared/static/media/film-en.jpg --frame=300 --image-format=jpeg --jpeg-quality=80 && remotion still src/index.js film-da ../shared/static/media/film-da.jpg --frame=300 --image-format=jpeg --jpeg-quality=80",
+    "render:en": "remotion render src/index.js film-en ../shared/static/media/film-en.mp4 --codec=h264 --crf=23 --pixel-format=yuv420p --x264-preset=slow --jpeg-quality=95 --concurrency=4",
+    "render:da": "remotion render src/index.js film-da ../shared/static/media/film-da.mp4 --codec=h264 --crf=23 --pixel-format=yuv420p --x264-preset=slow --jpeg-quality=95 --concurrency=4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.536",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "remotion": "4.0.536"
+  }
+}

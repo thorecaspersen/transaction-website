@@ -1,0 +1,46 @@
+export const copy = {
+  en: {
+    pay: ['You pay with', 'your phone.'],
+    rest: ['Transaction', 'remembers', 'the rest.'],
+    logged: ['Logged.', 'By itself.'],
+    callouts: [
+      ['Time', '08:42'],
+      ['Account · Card', 'Main · Apple Pay'],
+      ['Merchant', 'Café Lua'],
+      ['Place', 'Charles St 82'],
+      ['Amount', '4.80 USD'],
+    ],
+    lunch: [['Lunch', 'at work?'], 'One tap.'],
+    turns: [['You buy dinner', 'tonight.'], ['Someone else', 'tomorrow.']],
+    trip: 'Lissabon',
+    days: [['Thu', 'you'], ['Fri', 'Jonas'], ['Fri', 'Maria']],
+    roughly: ['Roughly', 'is fine.'],
+    adds: ['It still', 'adds up.'],
+    owes: [['Jonas', 'owes you 14'], ['Maria', 'you owe 6'], ['Sofie', 'all square']],
+    world: [['149', 'currencies.'], ['248', 'languages.']],
+    tagline: 'The transaction log for power users.',
+  },
+  da: {
+    pay: ['Du betaler med', 'telefonen.'],
+    rest: ['Transaction', 'husker', 'resten.'],
+    logged: ['Gemt.', 'Af sig selv.'],
+    callouts: [
+      ['Tidspunkt', '08:42'],
+      ['Konto · Kort', 'Main · Apple Pay'],
+      ['Butik', 'Café Lua'],
+      ['Placering', 'Charles St 82'],
+      ['Beløb', '4.80 USD'],
+    ],
+    lunch: [['Frokost på', 'arbejdet?'], 'Ét tryk.'],
+    turns: [['Du giver middag', 'i aften.'], ['En anden', 'i morgen.']],
+    trip: 'Lissabon',
+    days: [['Tor', 'dig'], ['Fre', 'Jonas'], ['Fre', 'Maria']],
+    roughly: ['Cirka', 'er fint.'],
+    adds: ['Det går', 'stadig op.'],
+    owes: [['Jonas', 'skylder dig 14'], ['Maria', 'du skylder 6'], ['Sofie', 'kvit']],
+    world: [['149', 'valutaer.'], ['248', 'sprog.']],
+    tagline: 'Dine betalinger med ekstra detaljer.',
+  },
+};
+
+export const codes = ['DKK', 'EUR', 'USD', 'GBP', 'SEK', 'NOK', 'JPY', 'CHF', 'THB', 'ISK', 'PLN', 'CZK', 'AUD', 'CAD', 'MXN', 'BRL', 'INR', 'KRW', 'ZAR', 'TRY', 'HUF', 'NZD', 'SGD', 'AED'];

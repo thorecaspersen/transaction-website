@@ -1,0 +1,51 @@
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+video[data-pending] {
+  background: #111827;
+}
+
+.store-badge {
+  display: inline-flex;
+  line-height: 0;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.store-badge img {
+  display: block;
+  width: auto;
+  max-width: none;
+}
+
+.store-badge[data-store="apple"] img {
+  height: 48px;
+}
+
+.store-badge[data-store="google"] img[lang="en"] {
+  height: 71px;
+  margin: -11px;
+}
+
+.store-badge[data-store="google"] img[lang="da"] {
+  height: 62px;
+  margin: -7px 0;
+}
+
+.store-badge:active {
+  transform: scale(0.97);
+}
+
+.store-badge:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}

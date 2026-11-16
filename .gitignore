@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+video/out/
+video/.remotion/
+.claude/
+.impeccable/hook.cache.json
+.impeccable/hook.pending.json
+.impeccable/config.local.json

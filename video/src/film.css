@@ -1,0 +1,19 @@
+.film {
+  background: #0d1320;
+  overflow: hidden;
+  font-family: Display, sans-serif;
+  color: #f3f4f6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.lang-en [lang="da"],
+.lang-da [lang="en"] {
+  display: none !important;
+}
+
+.film *,
+.film *::before,
+.film *::after {
+  transition: none !important;
+  animation: none !important;
+}
