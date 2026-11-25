@@ -86,6 +86,15 @@ export const pages = [
     description: L('Coloured squares that fill in a whole payment, or create it, in one tap.', 'Farvede firkanter, der udfylder en hel betaling, eller opretter den, med ét tryk.'),
   },
   {
+    id: 'custom-fields',
+    path: '/custom-fields/',
+    title: L('Custom fields | Transaction', 'Egne felter | Transaction'),
+    description: L(
+      'Your own fields on every kind of payment, the create screen in your own order, and nothing ever deleted. Step by step, with screenshots.',
+      'Dine egne felter på alle slags betalinger, opret-skærmen i din egen rækkefølge, og intet bliver nogensinde slettet. Trin for trin, med skærmbilleder.'
+    ),
+  },
+  {
     id: 'prefilled',
     path: '/prefilled/',
     title: L('Prefilled values | Transaction', 'Forudfyldte værdier | Transaction'),

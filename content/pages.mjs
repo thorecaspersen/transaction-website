@@ -273,6 +273,7 @@ export const features = {
     offline: L('Read more about working offline', 'Læs mere om at bruge appen offline'),
     export: L('Read more about export', 'Læs mere om eksport'),
     watch: L('Read more about the watch app', 'Læs mere om ur-appen'),
+    'custom-fields': L('See the custom fields guide, step by step', 'Se guiden til egne felter, trin for trin'),
   },
   groups: [
     {
@@ -708,6 +709,20 @@ export const features = {
           'Tags: dine egne mærkater på alle slags betalinger.',
           'Make your own labels, like “Birthday” or “Work trip”, and put them on any payment of any kind. Rename them, give them a description, filter by them, and see a total per tag inside a group. Pick them offline, and create a new one right from the picker. Tags stay private and are never shared.',
           'Lav dine egne mærkater, som “Fødselsdag” eller “Arbejdsrejse”, og sæt dem på en hvilken som helst betaling af enhver slags. Omdøb dem, giv dem en beskrivelse, filtrér på dem, og se en total pr. tag i en gruppe. Vælg dem offline, og opret et nyt direkte fra listen. Tags forbliver private og deles aldrig.'
+        ),
+        F(
+          'Custom fields: your own text, dropdown, on/off and date fields on any kind of payment, with a default if you like.',
+          'Egne felter: dine egne tekst-, dropdown-, til/fra- og datofelter på alle slags betalinger, med en standardværdi, hvis du vil.',
+          'Make a field for whatever your payments are missing, like the project a payment belongs to, or the day its warranty runs out. Pick one of five kinds: a text line, a text area, a dropdown list, an on/off switch, or a date with or without the time, and choose the kinds of payment it shows on. Give it a default, and every new payment starts with it, also the ones saved by an automation, a template or the watch. Fields and their choices can only be archived, never deleted, so no payment ever loses a value.',
+          'Lav et felt til det, dine betalinger mangler, som det projekt, en betaling hører til, eller den dag, garantien udløber. Vælg en af fem slags: en tekstlinje, et tekstområde, en dropdown, en til/fra-kontakt eller en dato med eller uden tid, og vælg, hvilke slags betalinger feltet vises på. Giv det en standardværdi, så starter hver ny betaling med den, også dem, der gemmes af en automatisering, en skabelon eller uret. Felter og deres valgmuligheder kan kun arkiveres, aldrig slettes, så ingen betaling nogensinde mister en værdi.',
+          'custom-fields'
+        ),
+        F(
+          'Your own order on the create and edit screens: move the sections and your own fields, and hide what you never use.',
+          'Din egen rækkefølge på opret- og rediger-skærmene: flyt sektionerne og dine egne felter, og skjul det, du aldrig bruger.',
+          'Each kind of payment has one order, used by both its create and its edit screen. The templates and the date stay on top. Below them, move the built-in sections and your own fields up or down, and hide any section except the one a payment cannot do without: the amount on a transaction, the payer on a shared expense or an incoming payment. A preview shows the screen before you save. Hiding only hides: a hidden section is still filled in from your defaults and templates.',
+          'Hver slags betaling har én rækkefølge, som bruges af både dens opret- og dens rediger-skærm. Skabelonerne og datoen bliver øverst. Under dem flytter du de indbyggede sektioner og dine egne felter op eller ned, og skjuler enhver sektion undtagen den, en betaling ikke kan undvære: beløbet på en transaktion, betaleren på en fælles udgift eller en indgående betaling. En forhåndsvisning viser skærmen, før du gemmer. At skjule skjuler bare: en skjult sektion udfyldes stadig fra dine standardværdier og skabeloner.',
+          'custom-fields'
         ),
         F(
           'Ten categories, from dining to health and wellness.',
@@ -1230,6 +1245,144 @@ export const templatesPage = {
         'Frokost betalt med arbejdets ID-kort er ikke Apple Pay, så ingen automatisering ser den. Med en skabelon, der opretter med det samme, er det ét tryk om dagen.'
       ),
     },
+  ],
+};
+
+export const customFieldsPage = {
+  title: L('Custom fields, step by step.', 'Egne felter, trin for trin.'),
+  intro: L(
+    'Add the fields your payments are missing, put the create screen in your own order, and see your fields on every payment. One example from start to finish, with a screenshot of every step.',
+    'Tilføj de felter, dine betalinger mangler, sæt opret-skærmen i din egen rækkefølge, og se dine felter på hver betaling. Ét eksempel fra start til slut, med et skærmbillede af hvert trin.'
+  ),
+  note: L(
+    'The screenshots are from an iPhone, in English. In another language the buttons have other names, but they sit in the same places.',
+    'Skærmbillederne er fra en iPhone og på engelsk. På dansk hedder knapperne noget andet, men de sidder samme sted.'
+  ),
+  kindsTitle: L('Five kinds of field', 'Fem slags felter'),
+  kinds: [
+    { name: L('Text', 'Tekst'), text: L('One line, like a receipt number.', 'Én linje, som et kvitteringsnummer.') },
+    { name: L('Text area', 'Tekstområde'), text: L('Several lines, for the longer story.', 'Flere linjer, til den længere historie.') },
+    { name: L('Dropdown list', 'Dropdown'), text: L('One choice from a list you make yourself.', 'Ét valg fra en liste, du selv laver.') },
+    { name: L('On/off switch', 'Til/fra-kontakt'), text: L('Yes or no, like “Paid back by work”.', 'Ja eller nej, som “Betalt tilbage af arbejdet”.') },
+    { name: L('Date', 'Dato'), text: L('A day, with the time if you like, like the day the warranty runs out.', 'En dag, med tid hvis du vil, som den dag, garantien udløber.') },
+    {
+      name: L('A default, if you like', 'En standardværdi, hvis du vil'),
+      text: L('Every new payment starts with it, also the ones saved automatically.', 'Hver ny betaling starter med den, også dem, der gemmes automatisk.'),
+    },
+  ],
+  exampleTitle: L('The example: doing up the house', 'Eksemplet: huset skal sættes i stand'),
+  example: L(
+    'A new kitchen, a new bathroom, and the garden after that. Your bank shows forty payments at the same hardware store, and not one of them says which job it was for. One dropdown field, Project, puts that on every payment.',
+    'Et nyt køkken, et nyt badeværelse og haven bagefter. Banken viser fyrre betalinger i det samme byggemarked, og ikke én af dem siger, hvilket projekt de hørte til. Ét dropdown-felt, Project, skriver det på hver betaling.'
+  ),
+  parts: [
+    {
+      id: 'make',
+      nav: L('Make the field', 'Lav feltet'),
+      title: L('Make the field', 'Lav feltet'),
+      steps: [
+        { s: 'cf-settings', t: L('Open the menu, tap Settings, then Fields and forms.', 'Åbn menuen, tryk på Indstillinger og så på Felter og formularer.') },
+        {
+          s: 'cf-empty',
+          t: L(
+            'Under Your fields, tap Add field. The rule sits right above it: fields can be archived, never deleted.',
+            'Under Dine felter trykker du på Tilføj felt. Reglen står lige over: felter kan arkiveres, aldrig slettes.'
+          ),
+        },
+        { s: 'cf-name', t: L('Type the name, here Project, and choose Dropdown list.', 'Skriv navnet, her Project, og vælg Dropdown.') },
+        {
+          s: 'cf-choices',
+          t: L(
+            'Keep Transactions on under Show on. Under Choices, type Kitchen and tap Add. Do the same for Bathroom and Garden.',
+            'Behold Transaktioner slået til under Vis på. Under Valgmuligheder skriver du Kitchen og trykker på Tilføj. Gør det samme for Bathroom og Garden.'
+          ),
+        },
+        {
+          s: 'cf-default',
+          t: L(
+            'Pick Kitchen as the default value, and tap Save. New transactions start with it, also the ones added automatically.',
+            'Vælg Kitchen som standardværdi, og tryk på Gem. Nye transaktioner starter med den, også dem, der tilføjes automatisk.'
+          ),
+        },
+        { s: 'cf-list', t: L('Project is in the list, with its kind and where it shows.', 'Project står nu i listen, med sin slags og hvor det vises.') },
+      ],
+    },
+    {
+      id: 'arrange',
+      nav: L('Arrange the screen', 'Sæt skærmen i orden'),
+      title: L('Arrange the screen', 'Sæt skærmen i orden'),
+      intro: L(
+        'Each kind of payment has one order, used by both its create and its edit screen. The templates and the date always stay at the top.',
+        'Hver slags betaling har én rækkefølge, som bruges af både dens opret- og dens rediger-skærm. Skabelonerne og datoen bliver altid øverst.'
+      ),
+      steps: [
+        { s: 'cf-arrange', t: L('Under Screens, tap Transactions. A new field starts at the bottom.', 'Under Opret- og rediger-skærme trykker du på Transaktioner. Et nyt felt starter nederst.') },
+        { s: 'cf-moved', t: L('Move Project up with the arrows, to just above Amount and currency.', 'Flyt Project op med pilene, til lige over Beløb og valuta.') },
+        {
+          s: 'cf-hidden',
+          t: L(
+            'Tap the eye to hide a section you never use, here Paid for others. Amount and currency is Required: a transaction cannot be saved without it.',
+            'Tryk på øjet for at skjule en sektion, du aldrig bruger, her Betalt for andre. Beløb og valuta er Påkrævet: en transaktion kan ikke gemmes uden.'
+          ),
+        },
+        { s: 'cf-preview', t: L('Tap Preview to see the create screen before you save. Then tap Save.', 'Tryk på Forhåndsvis for at se opret-skærmen, før du gemmer. Tryk så på Gem.') },
+      ],
+    },
+    {
+      id: 'use',
+      nav: L('Use it', 'Brug det'),
+      title: L('Use it', 'Brug det'),
+      steps: [
+        { s: 'cf-create', t: L('Fill in the create screen as always. Project sits above the amount, already set to Kitchen.', 'Udfyld opret-skærmen som altid. Project står over beløbet og er allerede sat til Kitchen.') },
+        { s: 'cf-pick', t: L('These tiles are for the bathroom, so tap Project and pick Bathroom.', 'Fliserne er til badeværelset, så tryk på Project, og vælg Bathroom.') },
+        { s: 'cf-edit', t: L('Tap Add. Open the payment again later, and its edit screen has the same order, with Bathroom.', 'Tryk på Tilføj. Åbn betalingen igen senere, så har dens rediger-skærm samme rækkefølge, med Bathroom.') },
+      ],
+    },
+    {
+      id: 'archive',
+      nav: L('Archive, never delete', 'Arkivér, aldrig slet'),
+      title: L('Archive. Never delete.', 'Arkivér. Aldrig slet.'),
+      intro: L(
+        'There is no delete button, for a field or for one of its choices. You archive them instead, and every payment keeps its value, so nothing you saved can ever disappear.',
+        'Der er ingen slet-knap, hverken til et felt eller til en af dets valgmuligheder. Du arkiverer dem i stedet, og hver betaling beholder sin værdi, så intet af det, du har gemt, nogensinde kan forsvinde.'
+      ),
+      steps: [
+        {
+          s: 'cf-archive-choice',
+          t: L(
+            'The kitchen is done. Open Project, tap Archive next to Kitchen, pick a new default, and tap Save.',
+            'Køkkenet er færdigt. Åbn Project, tryk på Arkiver ud for Kitchen, vælg en ny standardværdi, og tryk på Gem.'
+          ),
+        },
+        { s: 'cf-pick-after', t: L('New payments no longer offer Kitchen.', 'Nye betalinger tilbyder ikke længere Kitchen.') },
+        { s: 'cf-old', t: L('The payments that have it keep it, marked archived.', 'De betalinger, der har den, beholder den, markeret som arkiveret.') },
+        {
+          s: 'cf-archive-field',
+          t: L(
+            'When the whole house is done, tap Archive field at the bottom of the same page. The field leaves the create screen, and every old payment still shows its project.',
+            'Når hele huset er færdigt, trykker du på Arkiver felt nederst på samme side. Feltet forsvinder fra opret-skærmen, og hver gammel betaling viser stadig sit projekt.'
+          ),
+        },
+      ],
+      checks: [
+        L('Archiving can be undone at any time, and the field comes back with every value.', 'En arkivering kan altid fortrydes, og feltet kommer tilbage med alle værdier.'),
+        L('The kind of a field is fixed once it exists, so every saved value keeps fitting it.', 'Et felts slags ligger fast, når det først findes, så alle gemte værdier fortsat passer til det.'),
+        L(
+          'Hiding a section only hides it. What it holds is still filled in from your defaults and templates, and kept.',
+          'At skjule en sektion skjuler den bare. Det, den rummer, udfyldes stadig fra dine standardværdier og skabeloner og bliver gemt.'
+        ),
+      ],
+    },
+  ],
+  knowTitle: L('Good to know', 'Godt at vide'),
+  know: [
+    L(
+      'Defaults fill every new payment, also the ones saved by a Wallet automation, a notification, a template or the watch. A date set to today gets the payment’s own date.',
+      'Standardværdier udfylder hver ny betaling, også dem, der gemmes af en Wallet-automatisering, en notifikation, en skabelon eller uret. En dato sat til i dag får betalingens egen dato.'
+    ),
+    L('Filling in your fields works offline. Making a field and saving an order need a connection.', 'At udfylde dine felter virker offline. At lave et felt og gemme en rækkefølge kræver forbindelse.'),
+    L('Your fields are private. They are never copied to a shared space.', 'Dine felter er private. De bliver aldrig kopieret til et delt rum.'),
+    L('The values show on the payment itself. They are not part of search, the filters, the list or the CSV export.', 'Værdierne vises på selve betalingen. De er ikke med i søgning, filtre, listen eller CSV-eksporten.'),
   ],
 };
 

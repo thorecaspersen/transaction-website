@@ -70,6 +70,7 @@ otherwise they stay in English. A page in any other language stays as it is, so 
 | `/transactions/`, `/shared-expenses/`, `/incoming-payments/` | The three kinds of entries |
 | `/automation/`, `/travel/`, `/features/` | Features |
 | `/shortcut-guide/` | Shortcuts setup step by step, with screenshots; linked from `/automation/` |
+| `/custom-fields/` | Custom fields setup step by step, with screenshots; linked from the front page and `/features/` |
 | `/currencies/`, `/languages/`, `/faq/` | Reference |
 | `/support/` | Support |
 | `/privacy/` | Privacy policy |

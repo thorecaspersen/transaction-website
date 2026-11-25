@@ -185,6 +185,36 @@ export const templates = {
   ),
 };
 
+export const customFields = {
+  title: L('Missing a field? Make your own.', 'Mangler du et felt? Lav dit eget.'),
+  body: L(
+    'Add your own fields to transactions, shared expenses and incoming payments, with a default if you like. Then put the screen in your own order.',
+    'Tilføj dine egne felter til transaktioner, fælles udgifter og indgående betalinger, med en standardværdi, hvis du vil. Sæt så skærmen i din egen rækkefølge.'
+  ),
+  kinds: [
+    L('Text', 'Tekst'),
+    L('Text area', 'Tekstområde'),
+    L('Dropdown list', 'Dropdown'),
+    L('On/off switch', 'Til/fra-kontakt'),
+    L('Date, with or without the time', 'Dato, med eller uden tid'),
+  ],
+  fieldName: L('Your field, on every payment', 'Dit felt, på hver betaling'),
+  field: L(
+    'Doing up the house? A dropdown called Project, with Kitchen, Bathroom and Garden, tells you which job each payment at the hardware store was for. New payments start with the default, also the ones saved automatically.',
+    'Skal huset sættes i stand? En dropdown, der hedder Projekt, med Køkken, Badeværelse og Have, fortæller dig, hvilket projekt hver betaling i byggemarkedet hørte til. Nye betalinger starter med standardværdien, også dem, der gemmes automatisk.'
+  ),
+  orderName: L('In your own order', 'I din egen rækkefølge'),
+  order: L(
+    'Move your fields and the built-in sections up or down, and hide the ones you never use. The create and the edit screen follow the same order.',
+    'Flyt dine felter og de indbyggede sektioner op eller ned, og skjul dem, du aldrig bruger. Opret- og rediger-skærmen følger samme rækkefølge.'
+  ),
+  keep: L(
+    'Nothing you save disappears. Fields and their choices can be archived, but never deleted, and every payment keeps its value.',
+    'Intet, du gemmer, forsvinder. Felter og deres valgmuligheder kan arkiveres, men aldrig slettes, og hver betaling beholder sin værdi.'
+  ),
+  more: L('Set up your first field, step by step', 'Lav dit første felt, trin for trin'),
+};
+
 export const travel = {
   title: L('On holiday with friends? Keep it loose.', 'På ferie med vennerne? Hold det løst.'),
   body: L(

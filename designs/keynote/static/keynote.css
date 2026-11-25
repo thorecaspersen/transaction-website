@@ -3117,6 +3117,43 @@ a:hover {
   }
 }
 
+.cf-kinds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: clamp(64px, 8vw, 104px);
+  list-style: none;
+}
+
+.cf-kinds li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px 10px 14px;
+  border-radius: 999px;
+  background: var(--tile);
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.cf-kinds .glyph {
+  width: 24px;
+  height: 24px;
+  color: var(--link);
+}
+
+.cf-keep {
+  max-width: 34em;
+  margin: clamp(64px, 8vw, 104px) auto 0;
+  text-align: center;
+}
+
+.cf-more {
+  margin-top: 16px;
+  text-align: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .tpl-stage .is-hero .tsq {
     animation: k-press 5s var(--ease) infinite;

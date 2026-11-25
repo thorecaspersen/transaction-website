@@ -1094,6 +1094,81 @@
   "en": "Everything templates can do",
   "da": "Alt, hvad skabeloner kan"
  },
+ "d190d89def15": {
+  "page": "home",
+  "en": "Missing a field? Make your own.",
+  "da": "Mangler du et felt? Lav dit eget."
+ },
+ "1130b9ba4eac": {
+  "page": "home",
+  "en": "Add your own fields to transactions, shared expenses and incoming payments, with a default if you like. Then put the screen in your own order.",
+  "da": "Tilføj dine egne felter til transaktioner, fælles udgifter og indgående betalinger, med en standardværdi, hvis du vil. Sæt så skærmen i din egen rækkefølge."
+ },
+ "c3328c39b0e2": {
+  "page": "home",
+  "en": "Text",
+  "da": "Tekst"
+ },
+ "0c28ccbe1faf": {
+  "page": "home",
+  "en": "Text area",
+  "da": "Tekstområde"
+ },
+ "bb92bc502b51": {
+  "page": "home",
+  "en": "Dropdown list",
+  "da": "Dropdown"
+ },
+ "d992b873f6fc": {
+  "page": "home",
+  "en": "On/off switch",
+  "da": "Til/fra-kontakt"
+ },
+ "14d606afd894": {
+  "page": "home",
+  "en": "Date, with or without the time",
+  "da": "Dato, med eller uden tid"
+ },
+ "b9106c43b0dd": {
+  "page": "home",
+  "en": "Fill in the create screen as always. Project sits above the amount, already set to Kitchen.",
+  "da": "Udfyld opret-skærmen som altid. Project står over beløbet og er allerede sat til Kitchen."
+ },
+ "e68c3596ef2f": {
+  "page": "home",
+  "en": "Your field, on every payment",
+  "da": "Dit felt, på hver betaling"
+ },
+ "e21207292e72": {
+  "page": "home",
+  "en": "Doing up the house? A dropdown called Project, with Kitchen, Bathroom and Garden, tells you which job each payment at the hardware store was for. New payments start with the default, also the ones saved automatically.",
+  "da": "Skal huset sættes i stand? En dropdown, der hedder Projekt, med Køkken, Badeværelse og Have, fortæller dig, hvilket projekt hver betaling i byggemarkedet hørte til. Nye betalinger starter med standardværdien, også dem, der gemmes automatisk."
+ },
+ "2e66298a5672": {
+  "page": "home",
+  "en": "Move Project up with the arrows, to just above Amount and currency.",
+  "da": "Flyt Project op med pilene, til lige over Beløb og valuta."
+ },
+ "015f456564a2": {
+  "page": "home",
+  "en": "In your own order",
+  "da": "I din egen rækkefølge"
+ },
+ "9d00ae6c4d16": {
+  "page": "home",
+  "en": "Move your fields and the built-in sections up or down, and hide the ones you never use. The create and the edit screen follow the same order.",
+  "da": "Flyt dine felter og de indbyggede sektioner op eller ned, og skjul dem, du aldrig bruger. Opret- og rediger-skærmen følger samme rækkefølge."
+ },
+ "eb5aaa120891": {
+  "page": "home",
+  "en": "Nothing you save disappears. Fields and their choices can be archived, but never deleted, and every payment keeps its value.",
+  "da": "Intet, du gemmer, forsvinder. Felter og deres valgmuligheder kan arkiveres, men aldrig slettes, og hver betaling beholder sin værdi."
+ },
+ "9a7cbbd50558": {
+  "page": "home",
+  "en": "Set up your first field, step by step",
+  "da": "Lav dit første felt, trin for trin"
+ },
  "e1030c0c9358": {
   "page": "home",
   "en": "149 currencies. Your bank’s fees included.",
@@ -3274,6 +3349,31 @@
   "en": "Make your own labels, like “Birthday” or “Work trip”, and put them on any payment of any kind. Rename them, give them a description, filter by them, and see a total per tag inside a group. Pick them offline, and create a new one right from the picker. Tags stay private and are never shared.",
   "da": "Lav dine egne mærkater, som “Fødselsdag” eller “Arbejdsrejse”, og sæt dem på en hvilken som helst betaling af enhver slags. Omdøb dem, giv dem en beskrivelse, filtrér på dem, og se en total pr. tag i en gruppe. Vælg dem offline, og opret et nyt direkte fra listen. Tags forbliver private og deles aldrig."
  },
+ "0d3f5da381d5": {
+  "page": "features",
+  "en": "Custom fields: your own text, dropdown, on/off and date fields on any kind of payment, with a default if you like.",
+  "da": "Egne felter: dine egne tekst-, dropdown-, til/fra- og datofelter på alle slags betalinger, med en standardværdi, hvis du vil."
+ },
+ "5b7158dfab4a": {
+  "page": "features",
+  "en": "Make a field for whatever your payments are missing, like the project a payment belongs to, or the day its warranty runs out. Pick one of five kinds: a text line, a text area, a dropdown list, an on/off switch, or a date with or without the time, and choose the kinds of payment it shows on. Give it a default, and every new payment starts with it, also the ones saved by an automation, a template or the watch. Fields and their choices can only be archived, never deleted, so no payment ever loses a value.",
+  "da": "Lav et felt til det, dine betalinger mangler, som det projekt, en betaling hører til, eller den dag, garantien udløber. Vælg en af fem slags: en tekstlinje, et tekstområde, en dropdown, en til/fra-kontakt eller en dato med eller uden tid, og vælg, hvilke slags betalinger feltet vises på. Giv det en standardværdi, så starter hver ny betaling med den, også dem, der gemmes af en automatisering, en skabelon eller uret. Felter og deres valgmuligheder kan kun arkiveres, aldrig slettes, så ingen betaling nogensinde mister en værdi."
+ },
+ "e894afb88555": {
+  "page": "features",
+  "en": "See the custom fields guide, step by step",
+  "da": "Se guiden til egne felter, trin for trin"
+ },
+ "cd4b6a5dd5d3": {
+  "page": "features",
+  "en": "Your own order on the create and edit screens: move the sections and your own fields, and hide what you never use.",
+  "da": "Din egen rækkefølge på opret- og rediger-skærmene: flyt sektionerne og dine egne felter, og skjul det, du aldrig bruger."
+ },
+ "87ef61738543": {
+  "page": "features",
+  "en": "Each kind of payment has one order, used by both its create and its edit screen. The templates and the date stay on top. Below them, move the built-in sections and your own fields up or down, and hide any section except the one a payment cannot do without: the amount on a transaction, the payer on a shared expense or an incoming payment. A preview shows the screen before you save. Hiding only hides: a hidden section is still filled in from your defaults and templates.",
+  "da": "Hver slags betaling har én rækkefølge, som bruges af både dens opret- og dens rediger-skærm. Skabelonerne og datoen bliver øverst. Under dem flytter du de indbyggede sektioner og dine egne felter op eller ned, og skjuler enhver sektion undtagen den, en betaling ikke kan undvære: beløbet på en transaktion, betaleren på en fælles udgift eller en indgående betaling. En forhåndsvisning viser skærmen, før du gemmer. At skjule skjuler bare: en skjult sektion udfyldes stadig fra dine standardværdier og skabeloner."
+ },
  "9d6d2f023de2": {
   "page": "features",
   "en": "Ten categories, from dining to health and wellness.",
@@ -4004,6 +4104,236 @@
   "en": "Coloured squares that fill in a whole payment, or create it, in one tap.",
   "da": "Farvede firkanter, der udfylder en hel betaling, eller opretter den, med ét tryk."
  },
+ "38dacae11e8e": {
+  "page": "custom-fields",
+  "en": "The screenshots are from an iPhone, in English. In another language the buttons have other names, but they sit in the same places.",
+  "da": "Skærmbillederne er fra en iPhone og på engelsk. På dansk hedder knapperne noget andet, men de sidder samme sted."
+ },
+ "6d0dd8069ee3": {
+  "page": "custom-fields",
+  "en": "Make the field",
+  "da": "Lav feltet"
+ },
+ "6ae80ff1cc25": {
+  "page": "custom-fields",
+  "en": "Arrange the screen",
+  "da": "Sæt skærmen i orden"
+ },
+ "377f415dafbf": {
+  "page": "custom-fields",
+  "en": "Use it",
+  "da": "Brug det"
+ },
+ "545197873433": {
+  "page": "custom-fields",
+  "en": "Archive, never delete",
+  "da": "Arkivér, aldrig slet"
+ },
+ "5bea16502630": {
+  "page": "custom-fields",
+  "en": "Custom fields, step by step.",
+  "da": "Egne felter, trin for trin."
+ },
+ "ac5d65e3a64c": {
+  "page": "custom-fields",
+  "en": "Add the fields your payments are missing, put the create screen in your own order, and see your fields on every payment. One example from start to finish, with a screenshot of every step.",
+  "da": "Tilføj de felter, dine betalinger mangler, sæt opret-skærmen i din egen rækkefølge, og se dine felter på hver betaling. Ét eksempel fra start til slut, med et skærmbillede af hvert trin."
+ },
+ "2b4c45f973ba": {
+  "page": "custom-fields",
+  "en": "Five kinds of field",
+  "da": "Fem slags felter"
+ },
+ "34511540ddd2": {
+  "page": "custom-fields",
+  "en": "One line, like a receipt number.",
+  "da": "Én linje, som et kvitteringsnummer."
+ },
+ "d7c07f39b43e": {
+  "page": "custom-fields",
+  "en": "Several lines, for the longer story.",
+  "da": "Flere linjer, til den længere historie."
+ },
+ "a6fde77c820a": {
+  "page": "custom-fields",
+  "en": "One choice from a list you make yourself.",
+  "da": "Ét valg fra en liste, du selv laver."
+ },
+ "6a8986a93c78": {
+  "page": "custom-fields",
+  "en": "Yes or no, like “Paid back by work”.",
+  "da": "Ja eller nej, som “Betalt tilbage af arbejdet”."
+ },
+ "eb9a4bc1c0c1": {
+  "page": "custom-fields",
+  "en": "Date",
+  "da": "Dato"
+ },
+ "b12ee92d88d1": {
+  "page": "custom-fields",
+  "en": "A day, with the time if you like, like the day the warranty runs out.",
+  "da": "En dag, med tid hvis du vil, som den dag, garantien udløber."
+ },
+ "7f54b34ed3b9": {
+  "page": "custom-fields",
+  "en": "A default, if you like",
+  "da": "En standardværdi, hvis du vil"
+ },
+ "42976d39f373": {
+  "page": "custom-fields",
+  "en": "Every new payment starts with it, also the ones saved automatically.",
+  "da": "Hver ny betaling starter med den, også dem, der gemmes automatisk."
+ },
+ "0fe5f5e28270": {
+  "page": "custom-fields",
+  "en": "The example: doing up the house",
+  "da": "Eksemplet: huset skal sættes i stand"
+ },
+ "1a2a2eabc8ff": {
+  "page": "custom-fields",
+  "en": "A new kitchen, a new bathroom, and the garden after that. Your bank shows forty payments at the same hardware store, and not one of them says which job it was for. One dropdown field, Project, puts that on every payment.",
+  "da": "Et nyt køkken, et nyt badeværelse og haven bagefter. Banken viser fyrre betalinger i det samme byggemarked, og ikke én af dem siger, hvilket projekt de hørte til. Ét dropdown-felt, Project, skriver det på hver betaling."
+ },
+ "1aaecea8561d": {
+  "page": "custom-fields",
+  "en": "Open the menu, tap Settings, then Fields and forms.",
+  "da": "Åbn menuen, tryk på Indstillinger og så på Felter og formularer."
+ },
+ "01f0eebdfc4c": {
+  "page": "custom-fields",
+  "en": "Under Your fields, tap Add field. The rule sits right above it: fields can be archived, never deleted.",
+  "da": "Under Dine felter trykker du på Tilføj felt. Reglen står lige over: felter kan arkiveres, aldrig slettes."
+ },
+ "40bae851cfd1": {
+  "page": "custom-fields",
+  "en": "Type the name, here Project, and choose Dropdown list.",
+  "da": "Skriv navnet, her Project, og vælg Dropdown."
+ },
+ "ca0089cd33fe": {
+  "page": "custom-fields",
+  "en": "Keep Transactions on under Show on. Under Choices, type Kitchen and tap Add. Do the same for Bathroom and Garden.",
+  "da": "Behold Transaktioner slået til under Vis på. Under Valgmuligheder skriver du Kitchen og trykker på Tilføj. Gør det samme for Bathroom og Garden."
+ },
+ "0edd870f383c": {
+  "page": "custom-fields",
+  "en": "Pick Kitchen as the default value, and tap Save. New transactions start with it, also the ones added automatically.",
+  "da": "Vælg Kitchen som standardværdi, og tryk på Gem. Nye transaktioner starter med den, også dem, der tilføjes automatisk."
+ },
+ "2c7fa2aecc50": {
+  "page": "custom-fields",
+  "en": "Project is in the list, with its kind and where it shows.",
+  "da": "Project står nu i listen, med sin slags og hvor det vises."
+ },
+ "35319977d49e": {
+  "page": "custom-fields",
+  "en": "Each kind of payment has one order, used by both its create and its edit screen. The templates and the date always stay at the top.",
+  "da": "Hver slags betaling har én rækkefølge, som bruges af både dens opret- og dens rediger-skærm. Skabelonerne og datoen bliver altid øverst."
+ },
+ "8b7e1856f686": {
+  "page": "custom-fields",
+  "en": "Under Screens, tap Transactions. A new field starts at the bottom.",
+  "da": "Under Opret- og rediger-skærme trykker du på Transaktioner. Et nyt felt starter nederst."
+ },
+ "20542c481e4c": {
+  "page": "custom-fields",
+  "en": "Tap the eye to hide a section you never use, here Paid for others. Amount and currency is Required: a transaction cannot be saved without it.",
+  "da": "Tryk på øjet for at skjule en sektion, du aldrig bruger, her Betalt for andre. Beløb og valuta er Påkrævet: en transaktion kan ikke gemmes uden."
+ },
+ "d5952259a65c": {
+  "page": "custom-fields",
+  "en": "Tap Preview to see the create screen before you save. Then tap Save.",
+  "da": "Tryk på Forhåndsvis for at se opret-skærmen, før du gemmer. Tryk så på Gem."
+ },
+ "38d4cdc7a57b": {
+  "page": "custom-fields",
+  "en": "These tiles are for the bathroom, so tap Project and pick Bathroom.",
+  "da": "Fliserne er til badeværelset, så tryk på Project, og vælg Bathroom."
+ },
+ "ffacf3e3a3d5": {
+  "page": "custom-fields",
+  "en": "Tap Add. Open the payment again later, and its edit screen has the same order, with Bathroom.",
+  "da": "Tryk på Tilføj. Åbn betalingen igen senere, så har dens rediger-skærm samme rækkefølge, med Bathroom."
+ },
+ "cc6922180a6d": {
+  "page": "custom-fields",
+  "en": "Archive. Never delete.",
+  "da": "Arkivér. Aldrig slet."
+ },
+ "982035d76829": {
+  "page": "custom-fields",
+  "en": "There is no delete button, for a field or for one of its choices. You archive them instead, and every payment keeps its value, so nothing you saved can ever disappear.",
+  "da": "Der er ingen slet-knap, hverken til et felt eller til en af dets valgmuligheder. Du arkiverer dem i stedet, og hver betaling beholder sin værdi, så intet af det, du har gemt, nogensinde kan forsvinde."
+ },
+ "7d13f6d39f15": {
+  "page": "custom-fields",
+  "en": "The kitchen is done. Open Project, tap Archive next to Kitchen, pick a new default, and tap Save.",
+  "da": "Køkkenet er færdigt. Åbn Project, tryk på Arkiver ud for Kitchen, vælg en ny standardværdi, og tryk på Gem."
+ },
+ "a01c30e612f8": {
+  "page": "custom-fields",
+  "en": "New payments no longer offer Kitchen.",
+  "da": "Nye betalinger tilbyder ikke længere Kitchen."
+ },
+ "84b76dfbd41c": {
+  "page": "custom-fields",
+  "en": "The payments that have it keep it, marked archived.",
+  "da": "De betalinger, der har den, beholder den, markeret som arkiveret."
+ },
+ "c2d4eafc9abb": {
+  "page": "custom-fields",
+  "en": "When the whole house is done, tap Archive field at the bottom of the same page. The field leaves the create screen, and every old payment still shows its project.",
+  "da": "Når hele huset er færdigt, trykker du på Arkiver felt nederst på samme side. Feltet forsvinder fra opret-skærmen, og hver gammel betaling viser stadig sit projekt."
+ },
+ "08750651c325": {
+  "page": "custom-fields",
+  "en": "Archiving can be undone at any time, and the field comes back with every value.",
+  "da": "En arkivering kan altid fortrydes, og feltet kommer tilbage med alle værdier."
+ },
+ "1ecf0680b0b3": {
+  "page": "custom-fields",
+  "en": "The kind of a field is fixed once it exists, so every saved value keeps fitting it.",
+  "da": "Et felts slags ligger fast, når det først findes, så alle gemte værdier fortsat passer til det."
+ },
+ "5d543a7c4035": {
+  "page": "custom-fields",
+  "en": "Hiding a section only hides it. What it holds is still filled in from your defaults and templates, and kept.",
+  "da": "At skjule en sektion skjuler den bare. Det, den rummer, udfyldes stadig fra dine standardværdier og skabeloner og bliver gemt."
+ },
+ "79fc372dc790": {
+  "page": "custom-fields",
+  "en": "Good to know",
+  "da": "Godt at vide"
+ },
+ "3069ae07d6e4": {
+  "page": "custom-fields",
+  "en": "Defaults fill every new payment, also the ones saved by a Wallet automation, a notification, a template or the watch. A date set to today gets the payment’s own date.",
+  "da": "Standardværdier udfylder hver ny betaling, også dem, der gemmes af en Wallet-automatisering, en notifikation, en skabelon eller uret. En dato sat til i dag får betalingens egen dato."
+ },
+ "5b095f47a6e0": {
+  "page": "custom-fields",
+  "en": "Filling in your fields works offline. Making a field and saving an order need a connection.",
+  "da": "At udfylde dine felter virker offline. At lave et felt og gemme en rækkefølge kræver forbindelse."
+ },
+ "f05e51039a8f": {
+  "page": "custom-fields",
+  "en": "Your fields are private. They are never copied to a shared space.",
+  "da": "Dine felter er private. De bliver aldrig kopieret til et delt rum."
+ },
+ "9cb2347e5421": {
+  "page": "custom-fields",
+  "en": "The values show on the payment itself. They are not part of search, the filters, the list or the CSV export.",
+  "da": "Værdierne vises på selve betalingen. De er ikke med i søgning, filtre, listen eller CSV-eksporten."
+ },
+ "c48612dfeee2": {
+  "page": "custom-fields",
+  "en": "Custom fields | Transaction",
+  "da": "Egne felter | Transaction"
+ },
+ "b38beacae1b2": {
+  "page": "custom-fields",
+  "en": "Your own fields on every kind of payment, the create screen in your own order, and nothing ever deleted. Step by step, with screenshots.",
+  "da": "Dine egne felter på alle slags betalinger, opret-skærmen i din egen rækkefølge, og intet bliver nogensinde slettet. Trin for trin, med skærmbilleder."
+ },
  "d4872c07fa79": {
   "page": "prefilled",
   "en": "Prefilled values. Type it once.",
@@ -4418,11 +4748,6 @@
   "page": "watch",
   "en": "Put Transaction on your watch face, and it shows what you have spent today in your main currency, the watch’s own new payments included. It starts over at zero at midnight, and a tap opens the keypad.",
   "da": "Sæt Transaction på din urskive, så viser den, hvad du har brugt i dag i din hovedvaluta, inklusive urets egne nye betalinger. Den starter forfra på nul ved midnat, og et tryk åbner tastaturet."
- },
- "79fc372dc790": {
-  "page": "watch",
-  "en": "Good to know",
-  "da": "Godt at vide"
  },
  "a00514b7bdd3": {
   "page": "watch",

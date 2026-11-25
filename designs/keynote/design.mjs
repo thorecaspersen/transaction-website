@@ -282,6 +282,31 @@ ${tb('p', x.detail, 'class="t-body tpl-note"')}
 </div></section>`;
 };
 
+const fieldGlyph = [
+  svg('<rect x="3.5" y="7.5" width="17" height="9" rx="2"/><path d="M7.5 10.5v3"/>'),
+  svg('<rect x="3.5" y="4.5" width="17" height="15" rx="2"/><path d="M7 9h10M7 12h10M7 15h6"/>'),
+  svg('<rect x="3.5" y="7.5" width="17" height="9" rx="2"/><path d="M13.5 11l2 2 2-2"/>'),
+  svg('<rect x="3.5" y="7.5" width="17" height="9" rx="4.5"/><circle cx="16" cy="12" r="2.6" class="fill"/>'),
+  svg('<rect x="4" y="5.5" width="16" height="14.5" rx="2.5"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/>'),
+];
+
+const cfShot = (s, label) => device(shot(`guide-${s}`), { width: 'var(--pw, 300px)', label });
+
+const homeFields = () => {
+  const x = H.customFields;
+  const [, arrange, use] = P.customFieldsPage.parts;
+  return `<section class="ch ch--grey cf" data-acc="purple"><div class="wrap">
+<header class="ch-head">${tb('h2', brk(x.title), 'class="h-xl"')}${tb('p', x.body, 'class="t-intro"')}</header>
+<ul class="cf-kinds">${x.kinds.map((k, i) => `<li>${fieldGlyph[i]}${tb('span', k)}</li>`).join('')}</ul>
+<div class="taps-grid">
+<figure class="tap-col">${cfShot('cf-create', use.steps[0].t)}<figcaption>${tb('h3', x.fieldName, 'class="h-s"')}${tb('p', x.field, 'class="t-body"')}</figcaption></figure>
+<figure class="tap-col">${cfShot('cf-moved', arrange.steps[1].t)}<figcaption>${tb('h3', x.orderName, 'class="h-s"')}${tb('p', x.order, 'class="t-body"')}</figcaption></figure>
+</div>
+${tb('p', emFirst(x.keep), 'class="t-intro cf-keep"')}
+<p class="cf-more">${more('custom-fields', x.more)}</p>
+</div></section>`;
+};
+
 const homeTravel = () => {
   const x = H.travel;
   return `<section class="ch ch--white travel" data-acc="pink"><div class="wrap">
@@ -362,7 +387,7 @@ ${storeLinks('stores')}
 </div></section>`;
 
 const home = () =>
-  [homeHero(), homeMoment(), homeBank(), homeTour(), homeKinds(), homeTravel(), homeBento(), homeWatch(), homeFind(), homeAccounts(), homeTaps(), homeTemplates(), homeMoney(), homeLangs(), homeToolbox(), homeFilm(), homeFinale()].join('\n');
+  [homeHero(), homeMoment(), homeBank(), homeTour(), homeKinds(), homeTravel(), homeBento(), homeWatch(), homeFind(), homeAccounts(), homeTaps(), homeTemplates(), homeFields(), homeMoney(), homeLangs(), homeToolbox(), homeFilm(), homeFinale()].join('\n');
 
 const crossNav = (current) => `<section class="ch ch--grey xnav" data-acc="purple"><div class="wrap">
 <header class="ch-head">${tb('h2', brk(H.items.title), 'class="h-l"')}</header>
@@ -500,6 +525,31 @@ ${guidePart(g.parts.works, s.works, s.worksNote, false)}
 </div></section>`
     ),
     `<section class="ch ch--white" id="if-it-fails"><div class="wrap">${guideWarn(g.warn)}</div></section>`,
+  ].join('\n');
+};
+
+const customFieldsGuide = () => {
+  const g = P.customFieldsPage;
+  return [
+    subHero({
+      acc: 'purple',
+      h1: g.title,
+      lede: g.intro,
+      after: `${tb('p', g.note, 'class="t-body"')}<nav class="jump" ${ta('aria-label', C.onPage)}>${g.parts.map((s) => `<a href="#${s.id}">${t(s.nav)}</a>`).join('')}</nav>`,
+      media: cfShot('cf-create', g.parts[2].steps[0].t),
+    }),
+    `<section class="ch ch--grey" data-acc="purple"><div class="wrap">
+<header class="ch-head ch-head--left">${tb('h2', g.kindsTitle, 'class="h-xl"')}</header>
+<dl class="spec-grid">${g.kinds.map((k) => `<div>${tb('dt', k.name)}${tb('dd', k.text)}</div>`).join('')}</dl>
+</div></section>`,
+    `<section class="ch ch--black" data-acc="purple"><div class="wrap narrow center">${tb('h2', g.exampleTitle, 'class="h-xl"')}${tb('p', g.example, 'class="t-intro"')}</div></section>`,
+    ...g.parts.map(
+      (s, i) => `<section class="ch ch--${i % 2 ? 'grey' : 'white'} guide" id="${s.id}" data-acc="purple"><div class="wrap">
+<header class="ch-head ch-head--left">${tb('h2', s.title, 'class="h-xl"')}${s.intro ? tb('p', s.intro, 'class="t-intro"') : ''}</header>
+${guideSteps(s.steps)}${s.checks ? `<ul class="checks gnote">${s.checks.map((x) => tb('li', x)).join('')}</ul>` : ''}
+</div></section>`
+    ),
+    `<section class="ch ch--black" data-acc="purple"><div class="wrap narrow">${tb('h2', g.knowTitle, 'class="h-xl"')}<ul class="checks">${g.know.map((x) => tb('li', x)).join('')}</ul></div></section>`,
   ].join('\n');
 };
 
@@ -694,6 +744,7 @@ const builders = {
   'incoming-payments': () => itemPage('incoming-payments'),
   automation,
   'shortcut-guide': shortcutGuide,
+  'custom-fields': customFieldsGuide,
   travel,
   features,
   currencies,
