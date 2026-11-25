@@ -30,8 +30,9 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: dist/keynote
-      # GitHub Pages sometimes answers "Deployment failed, try again later" (actions/deploy-pages#418).
-      # A second try with the same artifact goes through; re-running the whole run would upload a second one.
+      # Right after the upload, the first deploy often fails: the artifact is not found yet, or Pages
+      # answers "Deployment failed, try again later" (actions/deploy-pages#418). A second try a minute
+      # later with the same artifact goes through; re-running the whole run would upload a second one.
       - id: deployment
         uses: actions/deploy-pages@v5
         continue-on-error: true
