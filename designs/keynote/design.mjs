@@ -102,7 +102,7 @@ const langDialog = () => `<dialog class="lp" id="lang-picker" aria-labelledby="l
 
 const header = (page) => `<a class="skip" href="#main">${t(C.skip)}</a>
 <header class="bar"><div class="bar-in">
-<a class="bar-brand" href="/"${page.id === 'home' ? ' aria-current="page"' : ''}><img src="/assets/icon-64.png" alt="" width="64" height="64"><span>Transaction</span></a>
+<a class="bar-brand" href="/"${page.id === 'home' ? ' aria-current="page"' : ''}><img src="/assets/icon-64.png" alt="" width="64" height="64"><span>Yenzo</span></a>
 <nav class="bar-nav" ${ta('aria-label', C.pages)}>${barNav(page.id)}</nav>
 <details class="bar-menu"><summary ${ta('aria-label', C.menu)}>${chevDown}</summary><nav class="bar-drop" ${ta('aria-label', C.pages)}>${dropNav(page.id)}${navItem({ id: 'download', label: C.getApp }, page.id, 'bar-dlink is-get')}</nav></details>
 ${navItem({ id: 'download', label: C.getApp }, page.id, 'bar-cta')}
@@ -111,7 +111,7 @@ ${langButton()}
 ${langDialog()}`;
 
 const footer = (page) => `<footer class="ft"><div class="wrap">
-<nav class="ft-crumb" ${ta('aria-label', C.crumb)}><a href="/"><img src="/assets/icon-64.png" alt="" width="64" height="64" loading="lazy"><span>Transaction</span></a>${page.id === 'home' ? '' : `${chev}<span>${t(shortTitle(page.title))}</span>`}</nav>
+<nav class="ft-crumb" ${ta('aria-label', C.crumb)}><a href="/"><img src="/assets/icon-64.png" alt="" width="64" height="64" loading="lazy"><span>Yenzo</span></a>${page.id === 'home' ? '' : `${chev}<span>${t(shortTitle(page.title))}</span>`}</nav>
 <div class="ft-cols">${footerLinks()}</div>
 ${page.id === 'download' ? '' : `<div class="ft-get">${storeLinks('stores')}<p>${t(site.requirements)}</p></div>`}
 <div class="ft-base"><p>${t(dot(site.tagline))}</p><p>${t(C.contact)}: ${mail()}</p></div>

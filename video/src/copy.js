@@ -1,7 +1,7 @@
 export const copy = {
   en: {
     pay: ['You pay with', 'your phone.'],
-    rest: ['Transaction', 'remembers', 'the rest.'],
+    rest: ['Yenzo', 'remembers', 'the rest.'],
     logged: ['Logged.', 'By itself.'],
     callouts: [
       ['Time', '08:42'],
@@ -22,7 +22,7 @@ export const copy = {
   },
   da: {
     pay: ['Du betaler med', 'telefonen.'],
-    rest: ['Transaction', 'husker', 'resten.'],
+    rest: ['Yenzo', 'husker', 'resten.'],
     logged: ['Gemt.', 'Af sig selv.'],
     callouts: [
       ['Tidspunkt', '08:42'],

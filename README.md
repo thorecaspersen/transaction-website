@@ -1,6 +1,6 @@
 # transaction.thore.me
 
-The public website for the Transaction app: the landing page, a page per feature, FAQ, support,
+The public website for the Yenzo app (called Transaction until November 2026): the landing page, a page per feature, FAQ, support,
 privacy policy, terms of use and account deletion. English and Danish.
 
 ## Build and preview

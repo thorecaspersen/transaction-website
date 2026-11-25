@@ -19,7 +19,7 @@ export const EndCard = ({ c, lang }) => {
   return (
     <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
       <Img src={staticFile('icon-512.png')} style={{ width: 196, height: 196, borderRadius: 44, boxShadow: '0 30px 80px -20px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08)', transform: `scale(${pop})` }} />
-      <div style={{ marginTop: 44, fontSize: 132, fontWeight: 800, letterSpacing: '-0.045em', lineHeight: 1, ...rise(14) }}>Transaction</div>
+      <div style={{ marginTop: 44, fontSize: 132, fontWeight: 800, letterSpacing: '-0.045em', lineHeight: 1, ...rise(14) }}>Yenzo</div>
       <div style={{ marginTop: 22, fontSize: 44, fontWeight: 500, color: '#9ca3af', letterSpacing: '-0.01em', ...rise(22) }}>{c.tagline}</div>
       <div style={{ marginTop: 52, display: 'flex', alignItems: 'center', gap: 28, ...rise(32) }}>
         {badges.map((b) => (

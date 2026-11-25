@@ -1,8 +1,8 @@
-# Translating the Transaction website
+# Translating the Yenzo website
 
 Run every command from the repository root.
 
-You translate the public website of **Transaction**, a personal-finance app for iPhone, Android and watches
+You translate the public website of **Yenzo**, a personal-finance app for iPhone, Android and watches
 (website: transaction.thore.me). The English text is the source. The site is read by ordinary people deciding
 whether to download the app, and by users following setup guides. Tools: `node` is available.
 
@@ -30,7 +30,7 @@ whether to download the app, and by users following setup guides. Tools: `node` 
   that changes legal meaning.
 
 ## Never translate
-- The app name **Transaction** (it is a name, even where it looks like the English word). Keep it as is.
+- The app name **Yenzo**. Keep it as is, in Latin script.
 - Brand and product names: Apple, iPhone, Apple Watch, Apple Pay, Apple Wallet (use Apple's official name for
   the Wallet app in your language if Apple localises it, otherwise "Wallet"), App Store, Google Play, Google Pay,
   Android, Wear OS, Nordea, Nordea Mobile, MobilePay, Microsoft Azure, Sentry, Facebook, Excel, CSV, GDPR.

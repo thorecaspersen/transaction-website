@@ -11,7 +11,7 @@ export const faq = {
       name: L('The app', 'Appen'),
       items: [
         {
-          q: L('Who is Transaction for?', 'Hvem er Transaction til?'),
+          q: L('Who is Yenzo for?', 'Hvem er Yenzo til?'),
           a: L(
             'For people who want to remember what every payment was: where, when, with whom, from which account. It is built for power users: the create screen shows every field at once. If you only want a total per month, a simpler budget app will feel lighter.',
             'Til dem, der vil kunne huske, hvad hver betaling var: hvor, hvornår, med hvem, fra hvilken konto. Den er bygget til superbrugere: opret-skærmen viser alle felter på én gang. Vil du bare have en total pr. måned, vil en enklere budget-app føles lettere.'

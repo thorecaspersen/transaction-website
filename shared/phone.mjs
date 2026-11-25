@@ -137,7 +137,7 @@ export const shot = (key, { eager = false } = {}) =>
 
 export const device = (inner, { width, cls = '', label, h } = {}) => {
   const style = [width && `--ph-w:${width}`, h && `--ph-ar:804/${h}`].filter(Boolean).join(';');
-  return `<div class="ph ${cls}"${style ? ` style="${style}"` : ''} role="img" ${ta('aria-label', label || L('Screenshot of the Transaction app', 'Skærmbillede af Transaction-appen'))}><div class="ph-frame"><div class="ph-screen">${inner}<span class="ph-island"></span></div></div></div>`;
+  return `<div class="ph ${cls}"${style ? ` style="${style}"` : ''} role="img" ${ta('aria-label', label || L('Screenshot of the Yenzo app', 'Skærmbillede af Yenzo-appen'))}><div class="ph-frame"><div class="ph-screen">${inner}<span class="ph-island"></span></div></div></div>`;
 };
 
 export const phone = (name, opts = {}) => {

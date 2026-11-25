@@ -18,7 +18,7 @@ export const bankVsApp = {
   bankLabel: L('Your bank statement', 'Dit kontoudtog'),
   bankLine: '11/03   CAFE LUA NEW YORK NY     -4.80',
   bankNote: L('The date can be days off.', 'Datoen kan være flere dage forkert.'),
-  appLabel: L('The same payment in the Transaction app, created automatically', 'Den samme betaling i Transaction app, lavet automatisk'),
+  appLabel: L('The same payment in the Yenzo app, created automatically', 'Den samme betaling i Yenzo app, lavet automatisk'),
   fields: [
     { label: L('Time', 'Tidspunkt'), value: '2026-11-01 08:42' },
     { label: L('Place', 'Placering'), value: 'Charles St 82, New York' },
@@ -61,8 +61,8 @@ export const powerUser = {
   title: L('Yes, that’s a lot of fields.', 'Ja, der er mange felter.'),
   only: L('But only the amount has to be set. You decide whether to set the rest.', 'Men det er kun beløbet der skal sættes. Resten vælger du selv om du vil sætte.'),
   body: L(
-    'Transaction is not made for beginners. It opens straight on the create screen, and that screen shows every field at once: account, payment method, title, merchant, place, photos, groups, category, amount, currency, tip, notes, tags, who you pay for and much more.',
-    'Transaction er ikke lavet til begyndere. Den åbner direkte på opret-skærmen, og den viser alle felter på én gang: konto, betalingsmetode, titel, butik, placering, billeder, grupper, kategori, beløb, valuta, drikkepenge, noter, tags, hvem du betaler for og meget andet.'
+    'Yenzo is not made for beginners. It opens straight on the create screen, and that screen shows every field at once: account, payment method, title, merchant, place, photos, groups, category, amount, currency, tip, notes, tags, who you pay for and much more.',
+    'Yenzo er ikke lavet til begyndere. Den åbner direkte på opret-skærmen, og den viser alle felter på én gang: konto, betalingsmetode, titel, butik, placering, billeder, grupper, kategori, beløb, valuta, drikkepenge, noter, tags, hvem du betaler for og meget andet.'
   ),
   punch: L('Fill in two. Or fill in twenty. Either way, it’s a few taps.', 'Udfyld to. Eller udfyld tyve. Uanset hvad er det få tryk.'),
   points: [
@@ -222,12 +222,12 @@ export const travel = {
     'Lav en gruppe til turen. Det, du betaler, kommer ind som transaktioner. Når Maria giver middag, tilføjer du det som en fælles udgift: cirka 120 euro, din andel cirka 30. Ingen kvitteringer at dele. Intet regneark på øren.'
   ),
   punch: L(
-    'You buy dinner tonight, someone else tomorrow. Transaction shows who owes whom, so you can see whose turn it is.',
-    'Du giver middag i aften, en anden i morgen. Transaction viser, hvem der skylder hvem, så I kan se, hvis tur det er.'
+    'You buy dinner tonight, someone else tomorrow. Yenzo shows who owes whom, so you can see whose turn it is.',
+    'Du giver middag i aften, en anden i morgen. Yenzo viser, hvem der skylder hvem, så I kan se, hvis tur det er.'
   ),
   honest: L(
-    'Need every person’s share exact to the cent and settled at the end? Then MobilePay groups or similar apps are the better tools. Transaction is for friends who keep it roughly even.',
-    'Skal hver persons andel gå op i øren og gøres op til sidst? Så er MobilePay-grupper eller lignende apps de bedre værktøjer. Transaction er til venner, der holder det cirka lige.'
+    'Need every person’s share exact to the cent and settled at the end? Then MobilePay groups or similar apps are the better tools. Yenzo is for friends who keep it roughly even.',
+    'Skal hver persons andel gå op i øren og gøres op til sidst? Så er MobilePay-grupper eller lignende apps de bedre værktøjer. Yenzo er til venner, der holder det cirka lige.'
   ),
   days: [
     { day: L('Thu', 'Tor'), who: L('You', 'Dig'), what: L('Dinner · 96 EUR', 'Middag · 96 EUR') },
@@ -259,8 +259,8 @@ export const money = {
     'Fra én valuta til en hvilken som helst anden: se en tur gennem Schweiz og Italien i euro, mens dine egne totaler bliver i dollar.'
   ),
   source: L(
-    'You never look up a rate. Transaction fetches the official rate for the exact day you paid, and keeps it, so an old payment never changes.',
-    'Du slår aldrig en kurs op. Transaction henter den officielle kurs for præcis den dag, du betalte, og gemmer den, så en gammel betaling aldrig ændrer sig.'
+    'You never look up a rate. Yenzo fetches the official rate for the exact day you paid, and keeps it, so an old payment never changes.',
+    'Du slår aldrig en kurs op. Yenzo henter den officielle kurs for præcis den dag, du betalte, og gemmer den, så en gammel betaling aldrig ændrer sig.'
   ),
   cardRate: L(
     'Know the exact rate from your bank statement? Type it on the transaction, and it wins.',

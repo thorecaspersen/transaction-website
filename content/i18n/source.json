@@ -169,10 +169,10 @@
   "en": "The date can be days off.",
   "da": "Datoen kan være flere dage forkert."
  },
- "08a242dc3a6f": {
+ "ecaaea0c6496": {
   "page": "home",
-  "en": "The same payment in the Transaction app, created automatically",
-  "da": "Den samme betaling i Transaction app, lavet automatisk"
+  "en": "The same payment in the Yenzo app, created automatically",
+  "da": "Den samme betaling i Yenzo app, lavet automatisk"
  },
  "6c82e6dd8680": {
   "page": "home",
@@ -234,10 +234,10 @@
   "en": "But only the amount has to be set. You decide whether to set the rest.",
   "da": "Men det er kun beløbet der skal sættes. Resten vælger du selv om du vil sætte."
  },
- "164e1364655c": {
+ "f8008096e67d": {
   "page": "home",
-  "en": "Transaction is not made for beginners. It opens straight on the create screen, and that screen shows every field at once: account, payment method, title, merchant, place, photos, groups, category, amount, currency, tip, notes, tags, who you pay for and much more.",
-  "da": "Transaction er ikke lavet til begyndere. Den åbner direkte på opret-skærmen, og den viser alle felter på én gang: konto, betalingsmetode, titel, butik, placering, billeder, grupper, kategori, beløb, valuta, drikkepenge, noter, tags, hvem du betaler for og meget andet."
+  "en": "Yenzo is not made for beginners. It opens straight on the create screen, and that screen shows every field at once: account, payment method, title, merchant, place, photos, groups, category, amount, currency, tip, notes, tags, who you pay for and much more.",
+  "da": "Yenzo er ikke lavet til begyndere. Den åbner direkte på opret-skærmen, og den viser alle felter på én gang: konto, betalingsmetode, titel, butik, placering, billeder, grupper, kategori, beløb, valuta, drikkepenge, noter, tags, hvem du betaler for og meget andet."
  },
  "362e7d81b2b8": {
   "page": "home",
@@ -604,20 +604,20 @@
   "en": "He owes you 14 EUR",
   "da": "Han skylder dig 14 EUR"
  },
- "2c8ea3ee76f6": {
+ "92677d8022cc": {
   "page": "home",
-  "en": "You buy dinner tonight, someone else tomorrow. Transaction shows who owes whom, so you can see whose turn it is.",
-  "da": "Du giver middag i aften, en anden i morgen. Transaction viser, hvem der skylder hvem, så I kan se, hvis tur det er."
+  "en": "You buy dinner tonight, someone else tomorrow. Yenzo shows who owes whom, so you can see whose turn it is.",
+  "da": "Du giver middag i aften, en anden i morgen. Yenzo viser, hvem der skylder hvem, så I kan se, hvis tur det er."
  },
  "f10a9979bc8d": {
   "page": "home",
   "en": "A trip group showing who owes whom",
   "da": "En rejsegruppe, der viser hvem der skylder hvem"
  },
- "e90474b210e6": {
+ "6626d7307d1e": {
   "page": "home",
-  "en": "Need every person’s share exact to the cent and settled at the end? Then MobilePay groups or similar apps are the better tools. Transaction is for friends who keep it roughly even.",
-  "da": "Skal hver persons andel gå op i øren og gøres op til sidst? Så er MobilePay-grupper eller lignende apps de bedre værktøjer. Transaction er til venner, der holder det cirka lige."
+  "en": "Need every person’s share exact to the cent and settled at the end? Then MobilePay groups or similar apps are the better tools. Yenzo is for friends who keep it roughly even.",
+  "da": "Skal hver persons andel gå op i øren og gøres op til sidst? Så er MobilePay-grupper eller lignende apps de bedre værktøjer. Yenzo er til venner, der holder det cirka lige."
  },
  "8f84c501b288": {
   "page": "home",
@@ -642,7 +642,7 @@
  "678af0c60f93": {
   "page": "home",
   "en": "Payments that save themselves",
-  "da": "Betalinger, der gemmes automatisk i Transaction app"
+  "da": "Betalinger, der gemmes automatisk i Yenzo app"
  },
  "25f30d353d67": {
   "page": "home",
@@ -1209,10 +1209,10 @@
   "en": "From any currency to any other: see a trip through Switzerland and Italy in euros, while your own totals stay in dollars.",
   "da": "Fra én valuta til en hvilken som helst anden: se en tur gennem Schweiz og Italien i euro, mens dine egne totaler bliver i dollar."
  },
- "5e0be6af14f3": {
+ "bc46ca81a40c": {
   "page": "home",
-  "en": "You never look up a rate. Transaction fetches the official rate for the exact day you paid, and keeps it, so an old payment never changes.",
-  "da": "Du slår aldrig en kurs op. Transaction henter den officielle kurs for præcis den dag, du betalte, og gemmer den, så en gammel betaling aldrig ændrer sig."
+  "en": "You never look up a rate. Yenzo fetches the official rate for the exact day you paid, and keeps it, so an old payment never changes.",
+  "da": "Du slår aldrig en kurs op. Yenzo henter den officielle kurs for præcis den dag, du betalte, og gemmer den, så en gammel betaling aldrig ændrer sig."
  },
  "6f4d8de47754": {
   "page": "home",
@@ -1379,10 +1379,10 @@
   "en": "Contact",
   "da": "Kontakt"
  },
- "137538278a00": {
+ "10786bb131e2": {
   "page": "home",
-  "en": "Transaction | your payments, with extra detail",
-  "da": "Transaction | dine betalinger med ekstra detaljer"
+  "en": "Yenzo | your payments, with extra detail",
+  "da": "Yenzo | dine betalinger med ekstra detaljer"
  },
  "eb700cf56f7f": {
   "page": "home",
@@ -1399,15 +1399,15 @@
   "en": "Choose the store that matches your phone.",
   "da": "Vælg den butik, der passer til din telefon."
  },
- "005bac63bf50": {
+ "32d183a84e0c": {
   "page": "download",
-  "en": "Get the app | Transaction",
-  "da": "Hent appen | Transaction"
+  "en": "Get the app | Yenzo",
+  "da": "Hent appen | Yenzo"
  },
- "6cc4ce189eb6": {
+ "3fc856d5ddc3": {
   "page": "download",
-  "en": "Download Transaction from the App Store or Google Play.",
-  "da": "Hent Transaction i App Store eller Google Play."
+  "en": "Download Yenzo from the App Store or Google Play.",
+  "da": "Hent Yenzo i App Store eller Google Play."
  },
  "2f83f850c57a": {
   "page": "transactions",
@@ -1634,10 +1634,10 @@
   "en": "From a MobilePay receipt",
   "da": "Fra en MobilePay-kvittering"
  },
- "4de45759ffb7": {
+ "ec71ec2e4a02": {
   "page": "transactions",
-  "en": "On iPhone: share the receipt from MobilePay to Transaction, and the payment is filled in.",
-  "da": "På iPhone: del kvitteringen fra MobilePay til Transaction, så udfyldes betalingen."
+  "en": "On iPhone: share the receipt from MobilePay to Yenzo, and the payment is filled in.",
+  "da": "På iPhone: del kvitteringen fra MobilePay til Yenzo, så udfyldes betalingen."
  },
  "a7e4fa0bbeea": {
   "page": "transactions",
@@ -1674,10 +1674,10 @@
   "en": "Keep it as one transaction, turn on “Paid for others” and add who drank them, with or without an amount. They show up in the group’s “Who owes whom”, and those with an amount count towards it.",
   "da": "Behold den som én transaktion, slå “Betalt for andre” til, og tilføj hvem der drak dem, med eller uden beløb. De dukker op under gruppens “Hvem skylder hvem”, og dem med et beløb tæller med."
  },
- "8c2999825eb8": {
+ "c4e0c26fc9d4": {
   "page": "transactions",
-  "en": "Transactions | Transaction",
-  "da": "Transaktioner | Transaction"
+  "en": "Transactions | Yenzo",
+  "da": "Transaktioner | Yenzo"
  },
  "27b9f44f01cd": {
   "page": "transactions",
@@ -1774,10 +1774,10 @@
   "en": "Need everyone to pay exactly the same, settled to the cent? MobilePay groups or a similar app is better for that.",
   "da": "Skal alle betale præcis det samme, gjort op til øren? Så er MobilePay-grupper eller en lignende app bedre til det."
  },
- "b27267da0f71": {
+ "c42f9a847cd0": {
   "page": "shared-expenses",
-  "en": "Shared expenses | Transaction",
-  "da": "Fælles udgifter | Transaction"
+  "en": "Shared expenses | Yenzo",
+  "da": "Fælles udgifter | Yenzo"
  },
  "41495032b6d5": {
   "page": "incoming-payments",
@@ -1834,10 +1834,10 @@
   "en": "You paid for dinner with friends: a transaction. Later a friend sends you their share: an incoming payment. In the group, “Who owes whom” counts it as “Transferred to you”, and the two of you are all square.",
   "da": "Du betalte middagen med vennerne: en transaktion. Senere sender en ven dig sin andel: en indgående betaling. I gruppen tæller “Hvem skylder hvem” den som “Har overført til dig”, og I to går lige op."
  },
- "499778879e4e": {
+ "5392d185fb70": {
   "page": "incoming-payments",
-  "en": "Incoming payments | Transaction",
-  "da": "Indgående betalinger | Transaction"
+  "en": "Incoming payments | Yenzo",
+  "da": "Indgående betalinger | Yenzo"
  },
  "f257b22634fc": {
   "page": "automation",
@@ -1852,7 +1852,7 @@
  "a3cf8ff0171b": {
   "page": "automation",
   "en": "Payments that save themselves.",
-  "da": "Betalinger, der gemmes automatisk i Transaction app."
+  "da": "Betalinger, der gemmes automatisk i Yenzo app."
  },
  "508e4b59735d": {
   "page": "automation",
@@ -2034,10 +2034,10 @@
   "en": "Payment notifications",
   "da": "Betalingsnotifikationer"
  },
- "238636c3dfcc": {
+ "fec5ef03fce2": {
   "page": "automation",
-  "en": "Your bank and wallet apps already tell you about every payment. On Android, give Transaction notification access once, and choose in Settings what happens with each payment it catches: wait for the import button, fill in the form, or save it straight away. Pay with your card or Google Pay, open the app, and the transaction is there. The app does not even need to be open when you pay.",
-  "da": "Din bank- og wallet-app fortæller dig allerede om hver betaling. På Android giver du Transaction notifikationsadgang én gang og vælger i indstillingerne, hvad der sker med hver betaling, den fanger: vent på import-knappen, udfyld formularen, eller gem den med det samme. Betal med dit kort eller Google Pay, åbn appen, så er transaktionen der. Appen behøver ikke engang at være åben, når du betaler."
+  "en": "Your bank and wallet apps already tell you about every payment. On Android, give Yenzo notification access once, and choose in Settings what happens with each payment it catches: wait for the import button, fill in the form, or save it straight away. Pay with your card or Google Pay, open the app, and the transaction is there. The app does not even need to be open when you pay.",
+  "da": "Din bank- og wallet-app fortæller dig allerede om hver betaling. På Android giver du Yenzo notifikationsadgang én gang og vælger i indstillingerne, hvad der sker med hver betaling, den fanger: vent på import-knappen, udfyld formularen, eller gem den med det samme. Betal med dit kort eller Google Pay, åbn appen, så er transaktionen der. Appen behøver ikke engang at være åben, når du betaler."
  },
  "3887e3708d95": {
   "page": "automation",
@@ -2089,20 +2089,20 @@
   "en": "Scan a receipt from your latest photo.",
   "da": "Skan en kvittering fra dit seneste billede."
  },
- "6cc272e70f15": {
+ "d3297a7312c6": {
   "page": "automation",
-  "en": "Payments that save themselves | Transaction",
-  "da": "Betalinger, der gemmes automatisk i Transaction app | Transaction"
+  "en": "Payments that save themselves | Yenzo",
+  "da": "Betalinger, der gemmes automatisk i Yenzo app | Yenzo"
  },
  "94ff5cb9952a": {
   "page": "automation",
   "en": "Apple Wallet payments and payment notifications become transactions by themselves, with the place and the exact time.",
   "da": "Apple Wallet-betalinger og betalingsnotifikationer bliver selv til transaktioner, med sted og præcist tidspunkt."
  },
- "def7d4244394": {
+ "0da01aabe7c2": {
   "page": "shortcut-guide",
-  "en": "The screenshots are from iOS 27, in English. In another language Apple’s buttons have other names, but they sit in the same places. Transaction’s own actions have the same English names on every phone.",
-  "da": "Skærmbillederne er fra iOS 27 og på engelsk. På dansk hedder Apples knapper noget andet, men de sidder samme sted. Transactions egne handlinger har de samme engelske navne på alle telefoner."
+  "en": "The screenshots are from iOS 27, in English. In another language Apple’s buttons have other names, but they sit in the same places. Yenzo’s own actions have the same English names on every phone.",
+  "da": "Skærmbillederne er fra iOS 27 og på engelsk. På dansk hedder Apples knapper noget andet, men de sidder samme sted. Yenzos egne handlinger har de samme engelske navne på alle telefoner."
  },
  "7e439c353ec8": {
   "page": "shortcut-guide",
@@ -2129,15 +2129,15 @@
   "en": "Nordea, with the place",
   "da": "Nordea, med stedet"
  },
- "1b74efa9121a": {
+ "afc76dd9cdca": {
   "page": "shortcut-guide",
-  "en": "Connect Transaction to Shortcuts, step by step.",
-  "da": "Forbind Transaction med Genveje, trin for trin."
+  "en": "Connect Yenzo to Shortcuts, step by step.",
+  "da": "Forbind Yenzo med Genveje, trin for trin."
  },
- "e676fea4da35": {
+ "200e62be8f99": {
   "page": "shortcut-guide",
-  "en": "Four automations, with every screen along the way: first what to do in the Transaction app, then exactly how the shortcut should look, and finally the green banner when it works.",
-  "da": "Fire automatiseringer, med alle skærmbilleder undervejs: først hvad du gør i Transaction-appen, så præcis hvordan genvejen skal se ud, og til sidst det grønne banner, når det virker."
+  "en": "Four automations, with every screen along the way: first what to do in the Yenzo app, then exactly how the shortcut should look, and finally the green banner when it works.",
+  "da": "Fire automatiseringer, med alle skærmbilleder undervejs: først hvad du gør i Yenzo-appen, så præcis hvordan genvejen skal se ud, og til sidst det grønne banner, når det virker."
  },
  "cc36f945c44f": {
   "page": "shortcut-guide",
@@ -2159,10 +2159,10 @@
   "en": "You tap to pay, and the transaction is created behind the scenes with the app closed. It is there the next time you open the app.",
   "da": "Du betaler med et tryk, og transaktionen bliver lavet i baggrunden med appen lukket. Den er der, næste gang du åbner appen."
  },
- "0fc8e5d775c0": {
+ "7db2f1ef4b5a": {
   "page": "shortcut-guide",
-  "en": "In the Transaction app",
-  "da": "I Transaction-appen"
+  "en": "In the Yenzo app",
+  "da": "I Yenzo-appen"
  },
  "b941cb042710": {
   "page": "shortcut-guide",
@@ -2299,10 +2299,10 @@
   "en": "A notification from Nordea",
   "da": "En notifikation fra Nordea"
  },
- "863e28f376a7": {
+ "47e5639ea9d5": {
   "page": "shortcut-guide",
-  "en": "Nordea Mobile sends a notification when you pay by card in a foreign currency. The automation hands it to Transaction, which reads the amount, the currency and the shop. There is no location step here, so payments made online work too. The Notification trigger needs iOS 27.",
-  "da": "Nordea Mobile sender en notifikation, når du betaler med kort i en fremmed valuta. Automatiseringen giver den videre til Transaction, som læser beløbet, valutaen og butikken. Her er intet placeringstrin, så betalinger online virker også. Notification-udløseren kræver iOS 27."
+  "en": "Nordea Mobile sends a notification when you pay by card in a foreign currency. The automation hands it to Yenzo, which reads the amount, the currency and the shop. There is no location step here, so payments made online work too. The Notification trigger needs iOS 27.",
+  "da": "Nordea Mobile sender en notifikation, når du betaler med kort i en fremmed valuta. Automatiseringen giver den videre til Yenzo, som læser beløbet, valutaen og butikken. Her er intet placeringstrin, så betalinger online virker også. Notification-udløseren kræver iOS 27."
  },
  "90894c51c43f": {
   "page": "shortcut-guide",
@@ -2464,15 +2464,15 @@
   "en": "The failure, when you run the shortcut by hand. An automation stops without any message.",
   "da": "Fejlen, når du kører genvejen manuelt. En automatisering stopper uden nogen besked."
  },
- "b39e8f9e074d": {
+ "6184dd8c4384": {
   "page": "shortcut-guide",
-  "en": "Shortcuts setup, step by step | Transaction",
-  "da": "Genveje-opsætning, trin for trin | Transaction"
+  "en": "Shortcuts setup, step by step | Yenzo",
+  "da": "Genveje-opsætning, trin for trin | Yenzo"
  },
- "bcd17bf98214": {
+ "1e7316b2e7c7": {
   "page": "shortcut-guide",
-  "en": "Connect Transaction to Apple Wallet and Nordea notifications through Shortcuts, with a screenshot of every step.",
-  "da": "Forbind Transaction med Apple Wallet og Nordea-notifikationer via Genveje, med et skærmbillede af hvert trin."
+  "en": "Connect Yenzo to Apple Wallet and Nordea notifications through Shortcuts, with a screenshot of every step.",
+  "da": "Forbind Yenzo med Apple Wallet og Nordea-notifikationer via Genveje, med et skærmbillede af hvert trin."
  },
  "d27d42878735": {
   "page": "travel",
@@ -2489,10 +2489,10 @@
   "en": "Travelling together, keeping it loose.",
   "da": "På tur sammen, og hold det løst."
  },
- "935c916d1dae": {
+ "5ac59c6994d6": {
   "page": "travel",
-  "en": "Four friends, two days in Lissabon. Nobody wants to split every receipt. Here is how the trip looks in Transaction.",
-  "da": "Fire venner, to dage i Lissabon. Ingen gider dele hver eneste kvittering. Sådan ser turen ud i Transaction."
+  "en": "Four friends, two days in Lissabon. Nobody wants to split every receipt. Here is how the trip looks in Yenzo.",
+  "da": "Fire venner, to dage i Lissabon. Ingen gider dele hver eneste kvittering. Sådan ser turen ud i Yenzo."
  },
  "ca55e22e0546": {
   "page": "travel",
@@ -2614,15 +2614,15 @@
   "en": "When to use something else",
   "da": "Hvornår du skal bruge noget andet"
  },
- "bfe895d49047": {
+ "19aa9c909f52": {
   "page": "travel",
-  "en": "If your group wants every share exact to the cent and a clean settle-up at the end, use MobilePay groups or a similar app. Transaction is for groups who take turns and keep it roughly even.",
-  "da": "Hvis gruppen vil have hver andel præcis på øren og en ren afregning til sidst, så brug MobilePay-grupper eller en lignende app. Transaction er til grupper, der skiftes og holder det cirka lige."
+  "en": "If your group wants every share exact to the cent and a clean settle-up at the end, use MobilePay groups or a similar app. Yenzo is for groups who take turns and keep it roughly even.",
+  "da": "Hvis gruppen vil have hver andel præcis på øren og en ren afregning til sidst, så brug MobilePay-grupper eller en lignende app. Yenzo er til grupper, der skiftes og holder det cirka lige."
  },
- "59ad2ea6bb5d": {
+ "76d2b0458a63": {
   "page": "travel",
-  "en": "Travelling together | Transaction",
-  "da": "På tur sammen | Transaction"
+  "en": "Travelling together | Yenzo",
+  "da": "På tur sammen | Yenzo"
  },
  "ddd6bffd26ba": {
   "page": "travel",
@@ -2699,10 +2699,10 @@
   "en": "Apple Wallet payments become transactions through a Shortcuts automation: fill the form, save with the app open, or save in the background.",
   "da": "Apple Wallet-betalinger bliver til transaktioner via en Genveje-automatisering: udfyld formularen, gem med appen åben, eller gem i baggrunden."
  },
- "4b9e41ed33e3": {
+ "d1f15dcdcf8e": {
   "page": "features",
-  "en": "Set up one automation in Apple’s Shortcuts app, and every time you tap to pay, the amount, the shop and the card go straight to Transaction. You choose what happens next: the form is filled in for you to check, the payment is saved at once, or it is saved quietly in the background. The first two need the app already open in the background, since it does not open by itself. A coffee at Café Lua is in the app before the cup is on the table.",
-  "da": "Sæt én automatisering op i Apples Genveje-app, så går beløb, butik og kort direkte til Transaction, hver gang du betaler med et tryk. Du vælger selv, hvad der sker bagefter: formularen udfyldes, så du kan tjekke den, betalingen gemmes med det samme, eller den gemmes stille i baggrunden. De to første kræver, at appen allerede er åben i baggrunden, for den åbner ikke af sig selv. En kaffe på Café Lua er i appen, før koppen står på bordet."
+  "en": "Set up one automation in Apple’s Shortcuts app, and every time you tap to pay, the amount, the shop and the card go straight to Yenzo. You choose what happens next: the form is filled in for you to check, the payment is saved at once, or it is saved quietly in the background. The first two need the app already open in the background, since it does not open by itself. A coffee at Café Lua is in the app before the cup is on the table.",
+  "da": "Sæt én automatisering op i Apples Genveje-app, så går beløb, butik og kort direkte til Yenzo, hver gang du betaler med et tryk. Du vælger selv, hvad der sker bagefter: formularen udfyldes, så du kan tjekke den, betalingen gemmes med det samme, eller den gemmes stille i baggrunden. De to første kræver, at appen allerede er åben i baggrunden, for den åbner ikke af sig selv. En kaffe på Café Lua er i appen, før koppen står på bordet."
  },
  "b099ef8ee25d": {
   "page": "features",
@@ -2739,20 +2739,20 @@
   "en": "Payment notifications on iPhone: one bank app read reliably, plus two general readers for any other app.",
   "da": "Betalingsnotifikationer på iPhone: én bankapp læst sikkert plus to generelle læsere til alle andre apps."
  },
- "ee06f987f438": {
+ "df0b311f6c46": {
   "page": "features",
-  "en": "Many banks send a notification for every card payment. An automation in the Shortcuts app hands each one to Transaction, which picks out the amount, the currency and the shop. One bank app is read reliably, including the rate the bank used abroad. For every other app, two general readers do their best, one for English and one for all languages. A notification that is not a payment is simply skipped, and the steps are in the app’s Settings.",
-  "da": "Mange banker sender en notifikation for hver kortbetaling. En automatisering i Genveje-appen giver hver af dem videre til Transaction, som finder beløbet, valutaen og butikken. Én bankapp læses sikkert, også med den kurs, banken brugte i udlandet. Til alle andre apps gør to generelle læsere deres bedste, én til engelsk og én til alle sprog. En notifikation, der ikke er en betaling, springes bare over, og trinene står i appens indstillinger."
+  "en": "Many banks send a notification for every card payment. An automation in the Shortcuts app hands each one to Yenzo, which picks out the amount, the currency and the shop. One bank app is read reliably, including the rate the bank used abroad. For every other app, two general readers do their best, one for English and one for all languages. A notification that is not a payment is simply skipped, and the steps are in the app’s Settings.",
+  "da": "Mange banker sender en notifikation for hver kortbetaling. En automatisering i Genveje-appen giver hver af dem videre til Yenzo, som finder beløbet, valutaen og butikken. Én bankapp læses sikkert, også med den kurs, banken brugte i udlandet. Til alle andre apps gør to generelle læsere deres bedste, én til engelsk og én til alle sprog. En notifikation, der ikke er en betaling, springes bare over, og trinene står i appens indstillinger."
  },
  "476cc569d61f": {
   "page": "features",
   "en": "Payment notifications on Android, with three modes: import button only, fill the form, or fill and save.",
   "da": "Betalingsnotifikationer på Android med tre tilstande: kun import-knap, udfyld formularen eller udfyld og gem."
  },
- "4a3b2ddac392": {
+ "a100a870e3f7": {
   "page": "features",
-  "en": "Give Transaction notification access once, and payment notifications from your bank and wallet apps are caught in the background, even with the app closed. Choose what happens with them: wait for the import button, fill in the form, or save straight away. Only clear payment notifications are used automatically; anything uncertain waits for you. Nothing is linked to your bank.",
-  "da": "Giv Transaction notifikationsadgang én gang, så fanges betalingsnotifikationer fra dine bank- og wallet-apps i baggrunden, også når appen er lukket. Vælg, hvad der sker med dem: vent på import-knappen, udfyld formularen, eller gem med det samme. Kun tydelige betalingsnotifikationer bruges automatisk; alt usikkert venter på dig. Intet bliver koblet til din bank."
+  "en": "Give Yenzo notification access once, and payment notifications from your bank and wallet apps are caught in the background, even with the app closed. Choose what happens with them: wait for the import button, fill in the form, or save straight away. Only clear payment notifications are used automatically; anything uncertain waits for you. Nothing is linked to your bank.",
+  "da": "Giv Yenzo notifikationsadgang én gang, så fanges betalingsnotifikationer fra dine bank- og wallet-apps i baggrunden, også når appen er lukket. Vælg, hvad der sker med dem: vent på import-knappen, udfyld formularen, eller gem med det samme. Kun tydelige betalingsnotifikationer bruges automatisk; alt usikkert venter på dig. Intet bliver koblet til din bank."
  },
  "a122eef1363d": {
   "page": "features",
@@ -2769,15 +2769,15 @@
   "en": "Read more about transactions",
   "da": "Læs mere om transaktioner"
  },
- "a42e100c7456": {
+ "c448bdd56243": {
   "page": "features",
-  "en": "Share a receipt from a supported payment app to Transaction from the share sheet: money you sent becomes a transaction, money you received an incoming payment, with the receipt attached (iPhone).",
-  "da": "Del en kvittering fra MobilePay til Transaction fra delingsarket: penge, du har sendt, bliver til en transaktion, og penge, du har modtaget, til en indgående betaling, med kvitteringen vedhæftet (iPhone)."
+  "en": "Share a receipt from a supported payment app to Yenzo from the share sheet: money you sent becomes a transaction, money you received an incoming payment, with the receipt attached (iPhone).",
+  "da": "Del en kvittering fra MobilePay til Yenzo fra delingsarket: penge, du har sendt, bliver til en transaktion, og penge, du har modtaget, til en indgående betaling, med kvitteringen vedhæftet (iPhone)."
  },
- "b2d5c4895c80": {
+ "3139382a7162": {
   "page": "features",
-  "en": "Open a receipt in the payment app, tap share and pick Transaction. The amount, the date, the other person and the receipt image are filled in for you, and fees and reference numbers go into the imported details instead of your notes. It follows the same save setting as the Apple Pay automation, so it can fill the form or save at once.",
-  "da": "Åbn en kvittering i MobilePay, tryk del, og vælg Transaction. Beløb, dato, den anden person og kvitteringsbilledet udfyldes for dig, og gebyr og referencenumre lægges i de importerede oplysninger i stedet for i dine noter. Det følger den samme gem-indstilling som Apple Pay-automatiseringen, så det kan udfylde formularen eller gemme med det samme."
+  "en": "Open a receipt in the payment app, tap share and pick Yenzo. The amount, the date, the other person and the receipt image are filled in for you, and fees and reference numbers go into the imported details instead of your notes. It follows the same save setting as the Apple Pay automation, so it can fill the form or save at once.",
+  "da": "Åbn en kvittering i MobilePay, tryk del, og vælg Yenzo. Beløb, dato, den anden person og kvitteringsbilledet udfyldes for dig, og gebyr og referencenumre lægges i de importerede oplysninger i stedet for i dine noter. Det følger den samme gem-indstilling som Apple Pay-automatiseringen, så det kan udfylde formularen eller gemme med det samme."
  },
  "60dd1111d179": {
   "page": "features",
@@ -3049,10 +3049,10 @@
   "en": "Today’s spend on your watch face.",
   "da": "Dagens forbrug på din urskive."
  },
- "ee8b7b943b2b": {
+ "e4124c114181": {
   "page": "features",
-  "en": "Put Transaction on your watch face to see what you have spent today in your main currency, the watch’s own new payments included. It starts over at zero at midnight, and a tap opens the keypad.",
-  "da": "Sæt Transaction på din urskive for at se, hvad du har brugt i dag i din hovedvaluta, inklusive urets egne nye betalinger. Den starter forfra på nul ved midnat, og et tryk åbner tastaturet."
+  "en": "Put Yenzo on your watch face to see what you have spent today in your main currency, the watch’s own new payments included. It starts over at zero at midnight, and a tap opens the keypad.",
+  "da": "Sæt Yenzo på din urskive for at se, hvad du har brugt i dag i din hovedvaluta, inklusive urets egne nye betalinger. Den starter forfra på nul ved midnat, og et tryk åbner tastaturet."
  },
  "7ee358220c73": {
   "page": "features",
@@ -3839,10 +3839,10 @@
   "en": "Private beta. Tested in real life ever since.",
   "da": "Privat beta. Testet i det virkelige liv lige siden."
  },
- "b77088be9eb6": {
+ "86a4514f8342": {
   "page": "features",
-  "en": "Transaction went into private beta in October 2025. Since then it has been tested where it counts: the coffee in the morning, the dinner on holiday, the cash in the pocket and the money that came back. Every feature on this page is here because a real payment needed it.",
-  "da": "Transaction gik i privat beta i oktober 2025. Siden da er den testet dér, hvor det tæller: kaffen om morgenen, middagen på ferien, kontanterne i lommen og pengene, der kom tilbage. Hver funktion på denne side er her, fordi en rigtig betaling havde brug for den."
+  "en": "Yenzo went into private beta in October 2025. Since then it has been tested where it counts: the coffee in the morning, the dinner on holiday, the cash in the pocket and the money that came back. Every feature on this page is here because a real payment needed it.",
+  "da": "Yenzo gik i privat beta i oktober 2025. Siden da er den testet dér, hvor det tæller: kaffen om morgenen, middagen på ferien, kontanterne i lommen og pengene, der kom tilbage. Hver funktion på denne side er her, fordi en rigtig betaling havde brug for den."
  },
  "fd7ff4478247": {
   "page": "features",
@@ -3854,10 +3854,10 @@
   "en": "The next chapter: the whole picture.",
   "da": "Det næste kapitel: hele billedet."
  },
- "48ec38f10b3c": {
+ "0ceb7d1a8031": {
   "page": "features",
-  "en": "Later, Transaction gets a website. Sign in, and everything you saved in the app is there, on a big screen. And it does not stop there: you can let it read more sources. The receipts in your email. The statement from your bank. Only the ones you say yes to.",
-  "da": "Senere får Transaction en hjemmeside. Når du er inde, ligger alt det, du har gemt i appen, dér, på en stor skærm. Og det stopper ikke dér: Du kan give den lov til at læse flere kilder. Kvitteringerne i din mail. Kontoudtoget fra din bank. Kun dem, du siger ja til."
+  "en": "Later, Yenzo gets a website. Sign in, and everything you saved in the app is there, on a big screen. And it does not stop there: you can let it read more sources. The receipts in your email. The statement from your bank. Only the ones you say yes to.",
+  "da": "Senere får Yenzo en hjemmeside. Når du er inde, ligger alt det, du har gemt i appen, dér, på en stor skærm. Og det stopper ikke dér: Du kan give den lov til at læse flere kilder. Kvitteringerne i din mail. Kontoudtoget fra din bank. Kun dem, du siger ja til."
  },
  "4157000f92a4": {
   "page": "features",
@@ -3979,25 +3979,25 @@
   "en": "But first: collect the payments.",
   "da": "Men først: saml betalingerne."
  },
- "fd9cb2a17283": {
+ "df1f42e40995": {
   "page": "features",
-  "en": "Every idea above needs one thing, and it is the one thing nobody can add afterwards: the data. So right now Transaction does one job as well as it can. Every coffee, every dinner, every tip in cash, with the place and the time. When the data is there, all the rest can come.",
-  "da": "Hver idé herover kræver én ting, og det er den eneste ting, ingen kan tilføje bagefter: dataene. Så lige nu gør Transaction ét job, så godt den kan. Hver kaffe, hver middag, alle drikkepengene i kontanter, med sted og tidspunkt. Når dataene er der, kan alt det andet komme."
+  "en": "Every idea above needs one thing, and it is the one thing nobody can add afterwards: the data. So right now Yenzo does one job as well as it can. Every coffee, every dinner, every tip in cash, with the place and the time. When the data is there, all the rest can come.",
+  "da": "Hver idé herover kræver én ting, og det er den eneste ting, ingen kan tilføje bagefter: dataene. Så lige nu gør Yenzo ét job, så godt den kan. Hver kaffe, hver middag, alle drikkepengene i kontanter, med sted og tidspunkt. Når dataene er der, kan alt det andet komme."
  },
  "dc2f045e129a": {
   "page": "features",
   "en": "The best day to start collecting was yesterday. The second best is today.",
   "da": "Den bedste dag at begynde at samle var i går. Den næstbedste er i dag."
  },
- "5f667630cbae": {
+ "aa7d08882d1e": {
   "page": "features",
-  "en": "Features | Transaction",
-  "da": "Funktioner | Transaction"
+  "en": "Features | Yenzo",
+  "da": "Funktioner | Yenzo"
  },
- "09ab546aef96": {
+ "4cfb26323db5": {
   "page": "features",
-  "en": "Everything Transaction can do, on one page.",
-  "da": "Alt, hvad Transaction kan, på én side."
+  "en": "Everything Yenzo can do, on one page.",
+  "da": "Alt, hvad Yenzo kan, på én side."
  },
  "15e349fdd7ac": {
   "page": "templates",
@@ -4094,10 +4094,10 @@
   "en": "Lunch paid with your work ID card is not Apple Pay, so no automation sees it. With a template that creates right away, it is one tap a day.",
   "da": "Frokost betalt med arbejdets ID-kort er ikke Apple Pay, så ingen automatisering ser den. Med en skabelon, der opretter med det samme, er det ét tryk om dagen."
  },
- "c71b9539286c": {
+ "65e0b2a4136c": {
   "page": "templates",
-  "en": "Templates | Transaction",
-  "da": "Skabeloner | Transaction"
+  "en": "Templates | Yenzo",
+  "da": "Skabeloner | Yenzo"
  },
  "826ba26efb60": {
   "page": "templates",
@@ -4324,10 +4324,10 @@
   "en": "The values show on the payment itself. They are not part of search, the filters, the list or the CSV export.",
   "da": "Værdierne vises på selve betalingen. De er ikke med i søgning, filtre, listen eller CSV-eksporten."
  },
- "c48612dfeee2": {
+ "81be924aee90": {
   "page": "custom-fields",
-  "en": "Custom fields | Transaction",
-  "da": "Egne felter | Transaction"
+  "en": "Custom fields | Yenzo",
+  "da": "Egne felter | Yenzo"
  },
  "b38beacae1b2": {
   "page": "custom-fields",
@@ -4339,10 +4339,10 @@
   "en": "Prefilled values. Type it once.",
   "da": "Forudfyldte værdier. Skriv det én gang."
  },
- "6a448168b43b": {
+ "754a19395509": {
   "page": "prefilled",
-  "en": "Most payments look like the last one. Transaction keeps your own lists of titles, merchants and payers, and starts every form with your default values.",
-  "da": "De fleste betalinger ligner den forrige. Transaction husker dine egne lister med titler, butikker og betalere og starter hver formular med dine standardværdier."
+  "en": "Most payments look like the last one. Yenzo keeps your own lists of titles, merchants and payers, and starts every form with your default values.",
+  "da": "De fleste betalinger ligner den forrige. Yenzo husker dine egne lister med titler, butikker og betalere og starter hver formular med dine standardværdier."
  },
  "170d64ecc0e3": {
   "page": "prefilled",
@@ -4404,10 +4404,10 @@
   "en": "Payers are kept in Settings too, for shared expenses and incoming payments.",
   "da": "Betalere ligger også under Indstillinger, til fælles udgifter og indgående betalinger."
  },
- "3366d0d01c4f": {
+ "579c1ac24ea9": {
   "page": "prefilled",
-  "en": "Prefilled values | Transaction",
-  "da": "Forudfyldte værdier | Transaction"
+  "en": "Prefilled values | Yenzo",
+  "da": "Forudfyldte værdier | Yenzo"
  },
  "ad8181b5781d": {
   "page": "prefilled",
@@ -4479,10 +4479,10 @@
   "en": "Managing accounts, groups, templates and tags, and exporting.",
   "da": "Administrere konti, grupper, skabeloner og tags samt eksportere."
  },
- "42640e2526e2": {
+ "e14ed5ff4565": {
   "page": "offline",
-  "en": "Offline | Transaction",
-  "da": "Offline | Transaction"
+  "en": "Offline | Yenzo",
+  "da": "Offline | Yenzo"
  },
  "77d428e1c727": {
   "page": "offline",
@@ -4574,10 +4574,10 @@
   "en": "Export as often as you like. Nothing is deleted from the app when you do. You find it under Settings → Export data.",
   "da": "Eksportér så tit du vil. Intet slettes fra appen, når du gør det. Du finder det under Indstillinger → Eksportér data."
  },
- "9c972e3008df": {
+ "c39503540d6c": {
   "page": "export",
-  "en": "Export | Transaction",
-  "da": "Eksport | Transaction"
+  "en": "Export | Yenzo",
+  "da": "Eksport | Yenzo"
  },
  "5c30d1d6bb97": {
   "page": "export",
@@ -4744,10 +4744,10 @@
   "en": "Today’s spend, on your watch face.",
   "da": "Dagens forbrug, på din urskive."
  },
- "b953842e53fb": {
+ "408aedbe6535": {
   "page": "watch",
-  "en": "Put Transaction on your watch face, and it shows what you have spent today in your main currency, the watch’s own new payments included. It starts over at zero at midnight, and a tap opens the keypad.",
-  "da": "Sæt Transaction på din urskive, så viser den, hvad du har brugt i dag i din hovedvaluta, inklusive urets egne nye betalinger. Den starter forfra på nul ved midnat, og et tryk åbner tastaturet."
+  "en": "Put Yenzo on your watch face, and it shows what you have spent today in your main currency, the watch’s own new payments included. It starts over at zero at midnight, and a tap opens the keypad.",
+  "da": "Sæt Yenzo på din urskive, så viser den, hvad du har brugt i dag i din hovedvaluta, inklusive urets egne nye betalinger. Den starter forfra på nul ved midnat, og et tryk åbner tastaturet."
  },
  "a00514b7bdd3": {
   "page": "watch",
@@ -4769,10 +4769,10 @@
   "en": "The same app on Apple Watch and on Wear OS.",
   "da": "Den samme app på Apple Watch og på Wear OS."
  },
- "9e9b047ef03b": {
+ "9b7e5da1fbe1": {
   "page": "watch",
-  "en": "On your watch | Transaction",
-  "da": "På dit ur | Transaction"
+  "en": "On your watch | Yenzo",
+  "da": "På dit ur | Yenzo"
  },
  "beabbba91977": {
   "page": "watch",
@@ -4834,10 +4834,10 @@
   "en": "Fetched for the day you paid",
   "da": "Hentet til den dag, du betalte"
  },
- "2d7ffc1de24d": {
+ "91b307b3cb8f": {
   "page": "currencies",
-  "en": "You never look up a rate. When you add or edit a payment in another currency, Transaction fetches the official rate for that exact day. Not an average, and not today’s.",
-  "da": "Du slår aldrig en kurs op. Når du tilføjer eller ændrer en betaling i en anden valuta, henter Transaction den officielle kurs for præcis den dag. Ikke et gennemsnit og ikke dagens."
+  "en": "You never look up a rate. When you add or edit a payment in another currency, Yenzo fetches the official rate for that exact day. Not an average, and not today’s.",
+  "da": "Du slår aldrig en kurs op. Når du tilføjer eller ændrer en betaling i en anden valuta, henter Yenzo den officielle kurs for præcis den dag. Ikke et gennemsnit og ikke dagens."
  },
  "31c29a87814d": {
   "page": "currencies",
@@ -4994,10 +4994,10 @@
   "en": "Decimals",
   "da": "Decimaler"
  },
- "83943ae00d35": {
+ "6f6c25c56304": {
   "page": "currencies",
-  "en": "Currencies and exchange rates | Transaction",
-  "da": "Valutaer og kurser | Transaction"
+  "en": "Currencies and exchange rates | Yenzo",
+  "da": "Valutaer og kurser | Yenzo"
  },
  "bcf36d521042": {
   "page": "currencies",
@@ -5029,10 +5029,10 @@
   "en": "right to left",
   "da": "højre mod venstre"
  },
- "3696a13d56e7": {
+ "28209cf523c3": {
   "page": "languages",
-  "en": "248 languages | Transaction",
-  "da": "248 sprog | Transaction"
+  "en": "248 languages | Yenzo",
+  "da": "248 sprog | Yenzo"
  },
  "079671a09f7f": {
   "page": "languages",
@@ -5044,10 +5044,10 @@
   "en": "Most questions are really “which kind of payment is this?”. Here are the tricky ones, answered the way the app is meant to be used.",
   "da": "De fleste spørgsmål handler i virkeligheden om “hvilken slags betaling er det her?”. Her er de svære, besvaret sådan, som appen er tænkt."
  },
- "a0c795a0c81c": {
+ "58634dbb7560": {
   "page": "faq",
-  "en": "Who is Transaction for?",
-  "da": "Hvem er Transaction til?"
+  "en": "Who is Yenzo for?",
+  "da": "Hvem er Yenzo til?"
  },
  "759564c7bb24": {
   "page": "faq",
@@ -5304,10 +5304,10 @@
   "en": "See the page on deleting your account: it lists exactly what is deleted and when.",
   "da": "Se siden om at slette din konto: den viser præcis, hvad der slettes og hvornår."
  },
- "aa38a37ecf31": {
+ "357a35183d1e": {
   "page": "faq",
-  "en": "Questions and answers | Transaction",
-  "da": "Spørgsmål og svar | Transaction"
+  "en": "Questions and answers | Yenzo",
+  "da": "Spørgsmål og svar | Yenzo"
  },
  "c940d8032f10": {
   "page": "faq",
@@ -5384,15 +5384,15 @@
   "en": "Setting up payments that save themselves",
   "da": "Opsætning af betalinger, der gemmes automatisk"
  },
- "8f0e02cb3429": {
+ "517a31cff7a9": {
   "page": "support",
-  "en": "Support | Transaction",
-  "da": "Support | Transaction"
+  "en": "Support | Yenzo",
+  "da": "Support | Yenzo"
  },
- "b571cb78ca29": {
+ "a442561ea354": {
   "page": "support",
-  "en": "Help with Transaction: contact, setup guides and quick answers.",
-  "da": "Hjælp til Transaction: kontakt, opsætning og hurtige svar."
+  "en": "Help with Yenzo: contact, setup guides and quick answers.",
+  "da": "Hjælp til Yenzo: kontakt, opsætning og hurtige svar."
  },
  "583c9e23574a": {
   "page": "privacy",
@@ -5404,55 +5404,55 @@
   "en": "5 November 2026",
   "da": "5. november 2026"
  },
- "53af5f21e42f": {
+ "45c5fb1177eb": {
   "page": "privacy",
-  "en": "Transaction is where you keep your own payments. Everything it stores about you is there for one reason: so you can see, search and add up your own payments, and share the ones you choose. There are no ads, no tracking and no sale of data. Your payments are stored in the EU; the sign-in service is hosted in the USA, as described below.",
-  "da": "Transaction er der, hvor du gemmer dine egne betalinger. Alt, hvad den gemmer om dig, er der af én grund: så du kan se, søge i og lægge dine egne betalinger sammen, og dele dem, du vælger. Der er ingen annoncer, ingen sporing og intet salg af data. Dine betalinger ligger i EU; adgangstjenesten er hostet i USA, som beskrevet nedenfor."
+  "en": "Yenzo is where you keep your own payments. Everything it stores about you is there for one reason: so you can see, search and add up your own payments, and share the ones you choose. There are no ads, no tracking and no sale of data. Your payments are stored in the EU; the sign-in service is hosted in the USA, as described below.",
+  "da": "Yenzo er der, hvor du gemmer dine egne betalinger. Alt, hvad den gemmer om dig, er der af én grund: så du kan se, søge i og lægge dine egne betalinger sammen, og dele dem, du vælger. Der er ingen annoncer, ingen sporing og intet salg af data. Dine betalinger ligger i EU; adgangstjenesten er hostet i USA, som beskrevet nedenfor."
  },
  "8093b3aee9ca": {
   "page": "privacy",
   "en": "This page is a translation, provided for your convenience. If it differs from the English version, the English version applies.",
   "da": "Denne side er en oversættelse for din bekvemmeligheds skyld. Afviger den fra den engelske version, er det den engelske version, der gælder."
  },
- "8dbe9e1947fc": {
+ "c53f9817dba0": {
   "page": "privacy",
-  "en": "<1>Who is responsible</1>\n<2>Transaction is run by a private individual in Denmark. Contact: <3>transaction@thore.me</3>.</2>\n\n<4>What is stored, and why</4>\n<5>Everything below is linked to your account, used only to make the app work, and <6>none of it is used for tracking or advertising</6>.</5>\n<7>\n<8><9><10>Data</10><11>Why</11></9></8>\n<12>\n<13><14><15>Email address</15></14><16>Signing in. If you use Sign in with Apple and “Hide My Email”, only Apple’s relay address is stored.</16></13>\n<17><18><19>Name</19> (optional)</18><20>Shown on your profile, and to the people in a shared space you join.</20></17>\n<21><22><23>User ID and Sharing ID</23></22><24>The key to your account. Your Sharing ID lets someone invite you to a shared space. The only people who get it are those you give it to and the other members of your spaces. You can get a new one at any time.</24></21>\n<25><26><27>Your payments</27></26><28>Transactions, shared expenses and incoming payments with what you add to them: amounts, currencies, dates and times, titles, merchants, the names of payers and of people you paid for, notes, categories, tags, groups, accounts, payment methods, tips, receipt lines, exchange rates and fee rules. Also your templates. Your prefilled titles, merchants and payers stay on your phone.</28></25>\n<29><30><31>Precise location</31></30><32>The place of a payment, so you can see and search where you paid. Only when you allow location access while using the app, when your own Shortcuts automation adds your current location, or when you pick the location stored in a photo. A photo you attach also keeps the location stored in it, if it has one. <33>Optional</33>: say no, and payments are saved without a place.</32></29>\n<34><35><36>Photos</36></35><37>Photos you attach to a payment, such as receipts, are uploaded and stored with it, along with the details in the photo file: when and where it was taken, and the camera. Reading the text on a receipt or a Wallet screenshot happens on your phone.</37></34>\n<38><39><40>Imported details</40></39><41>When an automation or import creates a payment (Apple Wallet through Shortcuts, a payment notification, a Wallet screenshot or a MobilePay receipt), the text it received is stored with the payment, so you can always see where it came from.</41></38>\n<42><43><44>Payment notifications</44></43><45>On Android, if you give the app notification access, notifications are read on the phone, and only the payments are saved. On iPhone, the app only receives the notifications your own Shortcuts automation hands to it.</45></42>\n<46><47><48>Diagnostics</48></47><49>When something goes wrong: a crash or error report with your user ID and email address, the device model, operating system, app version, IP address and what the app was doing. For a small share of sessions, and for sessions with an error, a screen recording with all text and images masked. When a Shortcuts automation delivers a payment, a short trail of its steps goes with these reports: the currency and the rough size of the amount, never the exact amount, the merchant, the card or the place. The full Shortcut diagnostics are only sent when you tap “Send diagnostics to Sentry”. The server keeps its own diagnostics for up to 90 days: the requests it handled and any errors.</49></46>\n</12>\n</7>\n<50>Transaction does <51>not</51> connect to your bank, and never sees your card numbers or your bank sign-in details. It does not collect contacts, health data or advertising identifiers.</50>\n\n<52>Shared spaces</52>\n<53>When you share a payment in a shared space, or link a group to one, the members see a copy: always the amount, currency, date, title, category and account, plus the fields you choose (note, tip, payment method, location, my share, photos). Location starts ticked, so untick it if the place should stay private. Removing it from the space removes the copy. When you delete the original, the app asks whether the shared copy should go too.</53>\n\n<54>Who processes data for us</54>\n<55>\n<56><57><58>Provider</58><59>Role</59><60>Where</60></57></56>\n<61>\n<62><63><64>Clerk</64></63><65>Sign-in and account management: email, name, user ID.</65><66><67>USA</67></66></62>\n<68><69><70>Microsoft Azure</70></69><71>Server, database, photo storage and server diagnostics: your payments, photos and places.</71><72><73>EU</73> (North Europe)</72></68>\n<74><75><76>Sentry</76></75><77>Crash and error reports, and masked screen recordings.</77><78><79>EU</79> (Germany)</78></74>\n<80><81><82>Apple</82></81><83>Sign in with Apple. On iPhone: maps, and turning a position into an address.</83><84>USA</84></80>\n<85><86><87>Google</87></86><88>Sign in with Google. On Android: maps, and turning a position into an address.</88><89>USA</89></85>\n<90><91><92>Meta</92></91><93>Only if you choose to sign in with Facebook.</93><94>USA</94></90>\n</61>\n</55>\n<95>Exchange rates are downloaded by our server from public sources. Nothing about you is sent with that request.</95>\n\n<96>Transfer to the USA</96>\n<97><98>The sign-in service is hosted in the USA.</98> Your email address, name and user ID are stored by Clerk on servers in the USA, under the safeguards in our data processing agreement (the European Commission’s standard contractual clauses). If you sign in with Apple, Google or Facebook, they also process your sign-in under their own terms.</97>\n<99><100>Your payments are not.</100> Payments, photos and places live in a database in North Europe. To show an address, a position is looked up by your phone’s map service: Apple on iPhone, Google on Android.</99>\n\n<101>How long it is kept</101>\n<102>For as long as you have an account. A photo you remove, or one on a payment you delete, is deleted 30 days later. When your account is deleted, your data is deleted within 30 days - except posts and comments you shared in a shared space, which stay for its members under your name. Database backups expire automatically after 14 days, and deleted photo files after 7.</102>\n\n<103>Deleting your account</103>\n<104>You can ask for your account and all your data to be deleted at any time. See <105>Delete your account</105>. Before you do, you can export your payments as CSV files under Settings → Export data. Photos, tags and receipt lines are not included.</104>\n\n<106>Your rights</106>\n<107>Under the GDPR you have the right of access, rectification, erasure, restriction, objection and data portability. Export is self-service in the app; for everything else, write to <108>transaction@thore.me</108>. You can complain to the data protection authority where you live, or in Denmark to <109>Datatilsynet</109>, the Danish Data Protection Agency.</107>\n\n<110>Children</110>\n<111>Transaction is not directed at children under 13, and does not knowingly collect data about them.</111>\n\n<112>This website</112>\n<113>This website uses no cookies and no analytics. Your language choice is remembered in your own browser. Fonts and video are served from this site, not from other services. The site is hosted on GitHub Pages, which may record IP addresses for security.</113>\n\n<114>Changes</114>\n<115>If this policy changes, the date at the top changes too.</115>",
-  "da": "Hvem er ansvarlig\nTransaction drives af en privatperson i Danmark. Kontakt: transaction@thore.me.\n\nHvad der gemmes, og hvorfor\nAlt herunder er knyttet til din konto, bruges kun til at få appen til at virke, og intet af det bruges til sporing eller annoncer.\n\nDataHvorfor\n\nE-mailadresseTil at komme ind i appen. Kommer du ind med din Apple-konto og “Skjul min e-mail”, gemmes kun Apples videresendelsesadresse.\nNavn (valgfrit)Vises på din profil og for dem i et delt rum, du er med i.\nBruger-id og Delings-IDNøglen til din konto. Dit Delings-ID lader andre invitere dig til et delt rum. Kun dem, du giver det til, og de andre medlemmer af dine rum får det. Du kan få et nyt når som helst.\nDine betalingerTransaktioner, fælles udgifter og indgående betalinger med det, du tilføjer: beløb, valutaer, datoer og tidspunkter, titler, butikker, navne på betalere og på dem, du har betalt for, noter, kategorier, tags, grupper, konti, betalingsmetoder, drikkepenge, kvitteringslinjer, valutakurser og gebyrregler. Også dine skabeloner. Dine forudfyldte titler, butikker og betalere bliver på din telefon.\nPræcis placeringStedet for en betaling, så du kan se og søge på, hvor du betalte. Kun når du giver adgang til placering, mens du bruger appen, når din egen Genveje-automatisering tilføjer din aktuelle placering, eller når du vælger placeringen fra et billede. Et billede, du knytter til, beholder også den placering, der er gemt i det, hvis det har en. Frivilligt: siger du nej, gemmes betalinger uden sted.\nBillederBilleder, du knytter til en betaling, fx kvitteringer, uploades og gemmes med den, sammen med oplysningerne i billedfilen: hvornår og hvor det er taget, og kameraet. Teksten på en kvittering eller et Wallet-screenshot læses på din telefon.\nImporterede oplysningerNår en automatisering eller import opretter en betaling (Apple Wallet via Genveje, en betalingsnotifikation, et Wallet-screenshot eller en MobilePay-kvittering), gemmes den tekst, den modtog, med betalingen, så du altid kan se, hvor den kom fra.\nBetalingsnotifikationerPå Android læses notifikationer på telefonen, hvis du giver appen notifikationsadgang, og kun betalingerne gemmes. På iPhone modtager appen kun de notifikationer, din egen Genveje-automatisering giver den.\nDiagnostikNår noget går galt: en nedbruds- eller fejlrapport med dit bruger-id og din e-mailadresse, enhedsmodel, styresystem, appversion, IP-adresse og hvad appen var i gang med. For en lille andel af sessionerne, og for sessioner med en fejl, en skærmoptagelse, hvor al tekst og alle billeder er skjult. Når en Genveje-automatisering afleverer en betaling, følger et kort spor af dens trin med disse rapporter: valutaen og beløbets omtrentlige størrelse, aldrig det præcise beløb, butikken, kortet eller stedet. Den fulde Genvejs-diagnostik sendes kun, når du trykker “Send diagnostik til Sentry”. Serveren gemmer sin egen diagnostik i op til 90 dage: de forespørgsler, den har behandlet, og eventuelle fejl.\n\n\nTransaction forbinder ikke til din bank og ser aldrig dine kortnumre eller dine adgangsoplysninger til banken. Den indsamler ikke kontakter, helbredsdata eller reklame-id’er.\n\nDelte rum\nNår du deler en betaling i et delt rum eller forbinder en gruppe med et, ser medlemmerne en kopi: altid beløb, valuta, dato, titel, kategori og konto, plus de felter, du vælger (note, drikkepenge, betalingsmetode, placering, min andel, billeder). Placering er afkrydset fra start, så fjern krydset, hvis stedet skal være privat. Fjerner du den fra rummet, fjernes kopien. Sletter du originalen, spørger appen, om den delte kopi også skal væk.\n\nHvem behandler data for os\n\nLeverandørRolleHvor\n\nClerkAdgang og kontostyring: e-mail, navn, bruger-id.USA\nMicrosoft AzureServer, database, lager til billeder og serverdiagnostik: dine betalinger, billeder og placeringer.EU (Nordeuropa)\nSentryNedbruds- og fejlrapporter og skjulte skærmoptagelser.EU (Tyskland)\nAppleAdgang med din Apple-konto. På iPhone: kort og omsætning af en position til en adresse.USA\nGoogleAdgang med din Google-konto. På Android: kort og omsætning af en position til en adresse.USA\nMetaKun hvis du vælger at komme ind med din Facebook-konto.USA\n\n\nValutakurser hentes af vores server fra offentlige kilder. Der sendes intet om dig med.\n\nOverførsel til USA\nAdgangstjenesten er hostet i USA. Din e-mailadresse, dit navn og dit bruger-id opbevares af Clerk på servere i USA, på grundlag af garantierne i vores databehandleraftale (EU-Kommissionens standardkontraktbestemmelser). Kommer du ind med din Apple-, Google- eller Facebook-konto, behandler de også din adgang efter deres egne vilkår.\nDine betalinger gør ikke. Betalinger, billeder og placeringer ligger i en database i Nordeuropa. For at vise en adresse slås en position op af din telefons korttjeneste: Apple på iPhone, Google på Android.\n\nHvor længe det gemmes\nSå længe du har en konto. Et billede, du fjerner, eller et på en betaling, du sletter, slettes 30 dage senere. Når din konto slettes, slettes dine data inden for 30 dage - undtagen opslag og kommentarer, du har delt i et delt rum, som bliver stående for medlemmerne under dit navn. Sikkerhedskopier af databasen udløber automatisk efter 14 dage, og slettede billedfiler efter 7.\n\nSletning af din konto\nDu kan til enhver tid bede om at få din konto og alle dine data slettet. Se Slet din konto. Inden da kan du eksportere dine betalinger som CSV-filer under Indstillinger → Eksportér data. Billeder, tags og kvitteringslinjer er ikke med.\n\nDine rettigheder\nEfter GDPR har du ret til indsigt, berigtigelse, sletning, begrænsning, indsigelse og dataportabilitet. Eksport klarer du selv i appen; alt andet sker ved at skrive til transaction@thore.me. Du kan klage til databeskyttelsesmyndigheden, hvor du bor, eller i Danmark til Datatilsynet.\n\nBørn\nTransaction er ikke rettet mod børn under 13 år og indsamler ikke bevidst data om dem.\n\nDenne hjemmeside\nDenne hjemmeside bruger ingen cookies og ingen analyseværktøjer. Dit valg af sprog huskes i din egen browser. Skrifttyper og video leveres fra denne side, ikke fra andre tjenester. Siden hostes på GitHub Pages, som kan registrere IP-adresser af sikkerhedshensyn.\n\nÆndringer\nÆndres denne politik, ændres datoen øverst også."
+  "en": "<1>Who is responsible</1>\n<2>Yenzo is run by a private individual in Denmark. Contact: <3>transaction@thore.me</3>.</2>\n\n<4>What is stored, and why</4>\n<5>Everything below is linked to your account, used only to make the app work, and <6>none of it is used for tracking or advertising</6>.</5>\n<7>\n<8><9><10>Data</10><11>Why</11></9></8>\n<12>\n<13><14><15>Email address</15></14><16>Signing in. If you use Sign in with Apple and “Hide My Email”, only Apple’s relay address is stored.</16></13>\n<17><18><19>Name</19> (optional)</18><20>Shown on your profile, and to the people in a shared space you join.</20></17>\n<21><22><23>User ID and Sharing ID</23></22><24>The key to your account. Your Sharing ID lets someone invite you to a shared space. The only people who get it are those you give it to and the other members of your spaces. You can get a new one at any time.</24></21>\n<25><26><27>Your payments</27></26><28>Transactions, shared expenses and incoming payments with what you add to them: amounts, currencies, dates and times, titles, merchants, the names of payers and of people you paid for, notes, categories, tags, groups, accounts, payment methods, tips, receipt lines, exchange rates and fee rules. Also your templates. Your prefilled titles, merchants and payers stay on your phone.</28></25>\n<29><30><31>Precise location</31></30><32>The place of a payment, so you can see and search where you paid. Only when you allow location access while using the app, when your own Shortcuts automation adds your current location, or when you pick the location stored in a photo. A photo you attach also keeps the location stored in it, if it has one. <33>Optional</33>: say no, and payments are saved without a place.</32></29>\n<34><35><36>Photos</36></35><37>Photos you attach to a payment, such as receipts, are uploaded and stored with it, along with the details in the photo file: when and where it was taken, and the camera. Reading the text on a receipt or a Wallet screenshot happens on your phone.</37></34>\n<38><39><40>Imported details</40></39><41>When an automation or import creates a payment (Apple Wallet through Shortcuts, a payment notification, a Wallet screenshot or a MobilePay receipt), the text it received is stored with the payment, so you can always see where it came from.</41></38>\n<42><43><44>Payment notifications</44></43><45>On Android, if you give the app notification access, notifications are read on the phone, and only the payments are saved. On iPhone, the app only receives the notifications your own Shortcuts automation hands to it.</45></42>\n<46><47><48>Diagnostics</48></47><49>When something goes wrong: a crash or error report with your user ID and email address, the device model, operating system, app version, IP address and what the app was doing. For a small share of sessions, and for sessions with an error, a screen recording with all text and images masked. When a Shortcuts automation delivers a payment, a short trail of its steps goes with these reports: the currency and the rough size of the amount, never the exact amount, the merchant, the card or the place. The full Shortcut diagnostics are only sent when you tap “Send diagnostics to Sentry”. The server keeps its own diagnostics for up to 90 days: the requests it handled and any errors.</49></46>\n</12>\n</7>\n<50>Yenzo does <51>not</51> connect to your bank, and never sees your card numbers or your bank sign-in details. It does not collect contacts, health data or advertising identifiers.</50>\n\n<52>Shared spaces</52>\n<53>When you share a payment in a shared space, or link a group to one, the members see a copy: always the amount, currency, date, title, category and account, plus the fields you choose (note, tip, payment method, location, my share, photos). Location starts ticked, so untick it if the place should stay private. Removing it from the space removes the copy. When you delete the original, the app asks whether the shared copy should go too.</53>\n\n<54>Who processes data for us</54>\n<55>\n<56><57><58>Provider</58><59>Role</59><60>Where</60></57></56>\n<61>\n<62><63><64>Clerk</64></63><65>Sign-in and account management: email, name, user ID.</65><66><67>USA</67></66></62>\n<68><69><70>Microsoft Azure</70></69><71>Server, database, photo storage and server diagnostics: your payments, photos and places.</71><72><73>EU</73> (North Europe)</72></68>\n<74><75><76>Sentry</76></75><77>Crash and error reports, and masked screen recordings.</77><78><79>EU</79> (Germany)</78></74>\n<80><81><82>Apple</82></81><83>Sign in with Apple. On iPhone: maps, and turning a position into an address.</83><84>USA</84></80>\n<85><86><87>Google</87></86><88>Sign in with Google. On Android: maps, and turning a position into an address.</88><89>USA</89></85>\n<90><91><92>Meta</92></91><93>Only if you choose to sign in with Facebook.</93><94>USA</94></90>\n</61>\n</55>\n<95>Exchange rates are downloaded by our server from public sources. Nothing about you is sent with that request.</95>\n\n<96>Transfer to the USA</96>\n<97><98>The sign-in service is hosted in the USA.</98> Your email address, name and user ID are stored by Clerk on servers in the USA, under the safeguards in our data processing agreement (the European Commission’s standard contractual clauses). If you sign in with Apple, Google or Facebook, they also process your sign-in under their own terms.</97>\n<99><100>Your payments are not.</100> Payments, photos and places live in a database in North Europe. To show an address, a position is looked up by your phone’s map service: Apple on iPhone, Google on Android.</99>\n\n<101>How long it is kept</101>\n<102>For as long as you have an account. A photo you remove, or one on a payment you delete, is deleted 30 days later. When your account is deleted, your data is deleted within 30 days - except posts and comments you shared in a shared space, which stay for its members under your name. Database backups expire automatically after 14 days, and deleted photo files after 7.</102>\n\n<103>Deleting your account</103>\n<104>You can ask for your account and all your data to be deleted at any time. See <105>Delete your account</105>. Before you do, you can export your payments as CSV files under Settings → Export data. Photos, tags and receipt lines are not included.</104>\n\n<106>Your rights</106>\n<107>Under the GDPR you have the right of access, rectification, erasure, restriction, objection and data portability. Export is self-service in the app; for everything else, write to <108>transaction@thore.me</108>. You can complain to the data protection authority where you live, or in Denmark to <109>Datatilsynet</109>, the Danish Data Protection Agency.</107>\n\n<110>Children</110>\n<111>Yenzo is not directed at children under 13, and does not knowingly collect data about them.</111>\n\n<112>This website</112>\n<113>This website uses no cookies and no analytics. Your language choice is remembered in your own browser. Fonts and video are served from this site, not from other services. The site is hosted on GitHub Pages, which may record IP addresses for security.</113>\n\n<114>Changes</114>\n<115>If this policy changes, the date at the top changes too.</115>",
+  "da": "Hvem er ansvarlig\nYenzo drives af en privatperson i Danmark. Kontakt: transaction@thore.me.\n\nHvad der gemmes, og hvorfor\nAlt herunder er knyttet til din konto, bruges kun til at få appen til at virke, og intet af det bruges til sporing eller annoncer.\n\nDataHvorfor\n\nE-mailadresseTil at komme ind i appen. Kommer du ind med din Apple-konto og “Skjul min e-mail”, gemmes kun Apples videresendelsesadresse.\nNavn (valgfrit)Vises på din profil og for dem i et delt rum, du er med i.\nBruger-id og Delings-IDNøglen til din konto. Dit Delings-ID lader andre invitere dig til et delt rum. Kun dem, du giver det til, og de andre medlemmer af dine rum får det. Du kan få et nyt når som helst.\nDine betalingerTransaktioner, fælles udgifter og indgående betalinger med det, du tilføjer: beløb, valutaer, datoer og tidspunkter, titler, butikker, navne på betalere og på dem, du har betalt for, noter, kategorier, tags, grupper, konti, betalingsmetoder, drikkepenge, kvitteringslinjer, valutakurser og gebyrregler. Også dine skabeloner. Dine forudfyldte titler, butikker og betalere bliver på din telefon.\nPræcis placeringStedet for en betaling, så du kan se og søge på, hvor du betalte. Kun når du giver adgang til placering, mens du bruger appen, når din egen Genveje-automatisering tilføjer din aktuelle placering, eller når du vælger placeringen fra et billede. Et billede, du knytter til, beholder også den placering, der er gemt i det, hvis det har en. Frivilligt: siger du nej, gemmes betalinger uden sted.\nBillederBilleder, du knytter til en betaling, fx kvitteringer, uploades og gemmes med den, sammen med oplysningerne i billedfilen: hvornår og hvor det er taget, og kameraet. Teksten på en kvittering eller et Wallet-screenshot læses på din telefon.\nImporterede oplysningerNår en automatisering eller import opretter en betaling (Apple Wallet via Genveje, en betalingsnotifikation, et Wallet-screenshot eller en MobilePay-kvittering), gemmes den tekst, den modtog, med betalingen, så du altid kan se, hvor den kom fra.\nBetalingsnotifikationerPå Android læses notifikationer på telefonen, hvis du giver appen notifikationsadgang, og kun betalingerne gemmes. På iPhone modtager appen kun de notifikationer, din egen Genveje-automatisering giver den.\nDiagnostikNår noget går galt: en nedbruds- eller fejlrapport med dit bruger-id og din e-mailadresse, enhedsmodel, styresystem, appversion, IP-adresse og hvad appen var i gang med. For en lille andel af sessionerne, og for sessioner med en fejl, en skærmoptagelse, hvor al tekst og alle billeder er skjult. Når en Genveje-automatisering afleverer en betaling, følger et kort spor af dens trin med disse rapporter: valutaen og beløbets omtrentlige størrelse, aldrig det præcise beløb, butikken, kortet eller stedet. Den fulde Genvejs-diagnostik sendes kun, når du trykker “Send diagnostik til Sentry”. Serveren gemmer sin egen diagnostik i op til 90 dage: de forespørgsler, den har behandlet, og eventuelle fejl.\n\n\nYenzo forbinder ikke til din bank og ser aldrig dine kortnumre eller dine adgangsoplysninger til banken. Den indsamler ikke kontakter, helbredsdata eller reklame-id’er.\n\nDelte rum\nNår du deler en betaling i et delt rum eller forbinder en gruppe med et, ser medlemmerne en kopi: altid beløb, valuta, dato, titel, kategori og konto, plus de felter, du vælger (note, drikkepenge, betalingsmetode, placering, min andel, billeder). Placering er afkrydset fra start, så fjern krydset, hvis stedet skal være privat. Fjerner du den fra rummet, fjernes kopien. Sletter du originalen, spørger appen, om den delte kopi også skal væk.\n\nHvem behandler data for os\n\nLeverandørRolleHvor\n\nClerkAdgang og kontostyring: e-mail, navn, bruger-id.USA\nMicrosoft AzureServer, database, lager til billeder og serverdiagnostik: dine betalinger, billeder og placeringer.EU (Nordeuropa)\nSentryNedbruds- og fejlrapporter og skjulte skærmoptagelser.EU (Tyskland)\nAppleAdgang med din Apple-konto. På iPhone: kort og omsætning af en position til en adresse.USA\nGoogleAdgang med din Google-konto. På Android: kort og omsætning af en position til en adresse.USA\nMetaKun hvis du vælger at komme ind med din Facebook-konto.USA\n\n\nValutakurser hentes af vores server fra offentlige kilder. Der sendes intet om dig med.\n\nOverførsel til USA\nAdgangstjenesten er hostet i USA. Din e-mailadresse, dit navn og dit bruger-id opbevares af Clerk på servere i USA, på grundlag af garantierne i vores databehandleraftale (EU-Kommissionens standardkontraktbestemmelser). Kommer du ind med din Apple-, Google- eller Facebook-konto, behandler de også din adgang efter deres egne vilkår.\nDine betalinger gør ikke. Betalinger, billeder og placeringer ligger i en database i Nordeuropa. For at vise en adresse slås en position op af din telefons korttjeneste: Apple på iPhone, Google på Android.\n\nHvor længe det gemmes\nSå længe du har en konto. Et billede, du fjerner, eller et på en betaling, du sletter, slettes 30 dage senere. Når din konto slettes, slettes dine data inden for 30 dage - undtagen opslag og kommentarer, du har delt i et delt rum, som bliver stående for medlemmerne under dit navn. Sikkerhedskopier af databasen udløber automatisk efter 14 dage, og slettede billedfiler efter 7.\n\nSletning af din konto\nDu kan til enhver tid bede om at få din konto og alle dine data slettet. Se Slet din konto. Inden da kan du eksportere dine betalinger som CSV-filer under Indstillinger → Eksportér data. Billeder, tags og kvitteringslinjer er ikke med.\n\nDine rettigheder\nEfter GDPR har du ret til indsigt, berigtigelse, sletning, begrænsning, indsigelse og dataportabilitet. Eksport klarer du selv i appen; alt andet sker ved at skrive til transaction@thore.me. Du kan klage til databeskyttelsesmyndigheden, hvor du bor, eller i Danmark til Datatilsynet.\n\nBørn\nYenzo er ikke rettet mod børn under 13 år og indsamler ikke bevidst data om dem.\n\nDenne hjemmeside\nDenne hjemmeside bruger ingen cookies og ingen analyseværktøjer. Dit valg af sprog huskes i din egen browser. Skrifttyper og video leveres fra denne side, ikke fra andre tjenester. Siden hostes på GitHub Pages, som kan registrere IP-adresser af sikkerhedshensyn.\n\nÆndringer\nÆndres denne politik, ændres datoen øverst også."
  },
- "3a0b22d0c29b": {
+ "d0545b58111b": {
   "page": "privacy",
-  "en": "Privacy policy | Transaction",
-  "da": "Privatlivspolitik | Transaction"
+  "en": "Privacy policy | Yenzo",
+  "da": "Privatlivspolitik | Yenzo"
  },
- "e7c13a1efc54": {
+ "b7e424455076": {
   "page": "privacy",
-  "en": "What Transaction stores, why, where, and how to get it deleted.",
-  "da": "Hvad Transaction gemmer, hvorfor, hvor, og hvordan du får det slettet."
+  "en": "What Yenzo stores, why, where, and how to get it deleted.",
+  "da": "Hvad Yenzo gemmer, hvorfor, hvor, og hvordan du får det slettet."
  },
- "05e89e393401": {
+ "21a89d7cefa1": {
   "page": "tos",
-  "en": "Transaction is an app for saving your own payments, made by a private individual in Denmark. These terms apply to everyone who uses it, wherever in the world they live, and are also the end-user licence agreement (EULA) for the app.",
-  "da": "Transaction er en app til at gemme dine egne betalinger, lavet af en privatperson i Danmark. Vilkårene gælder for alle, der bruger appen, uanset hvor i verden de bor, og de er også slutbrugerlicensaftalen (EULA) for appen."
+  "en": "Yenzo is an app for saving your own payments, made by a private individual in Denmark. These terms apply to everyone who uses it, wherever in the world they live, and are also the end-user licence agreement (EULA) for the app.",
+  "da": "Yenzo er en app til at gemme dine egne betalinger, lavet af en privatperson i Danmark. Vilkårene gælder for alle, der bruger appen, uanset hvor i verden de bor, og de er også slutbrugerlicensaftalen (EULA) for appen."
  },
- "22801f53a148": {
+ "75298c16a82a": {
   "page": "tos",
-  "en": "<1>1. Acceptance</1>\n<2>By downloading or using Transaction you accept these terms. If you do not agree, do not use the app.</2>\n\n<3>2. Licence</3>\n<4>You get a personal, non-exclusive, non-transferable licence to use Transaction on devices you own or control, in line with the rules of the App Store or Google Play you got it from. The licence gives you no ownership of the app. You may not resell, rent, decompile or try to derive the source code, except where mandatory law allows it.</4>\n\n<5>3. Your account</5>\n<6>You can use the app without an account. Until you create one, what you save stays only on your phone, and is lost if the app is deleted. If you create an account, you are responsible for access to the email address or sign-in method you choose. You can have your account deleted at any time. See <7>Delete your account</7>.</6>\n\n<8>4. Your content</8>\n<9>What you save is yours. You grant only the permission needed to store it, sync it between your devices, and show it to the members of any shared space you choose to share it with.</9>\n\n<10>5. A record of payments, not a bank</10>\n<11>Transaction records what you and your automations tell it. Exchange rates, fees, totals and “who owes whom” are estimates for your own overview, not financial, tax or legal advice, and not a statement from your bank. Automations can miss a payment or catch one twice. Check anything important against your bank.</11>\n\n<12>6. How the app may not be used</12>\n<13>Do not use Transaction for unlawful content, to harass others, or to try to reach other people’s data or spaces. An account that does may be closed.</13>\n\n<14>7. Availability</14>\n<15>Transaction is run as a private project. There is no guaranteed uptime, no support deadline and no service-level agreement. The app works offline and keeps payments on your phone until they sync, but do not rely on it as the only place something important is kept. You can export your data at any time.</15>\n\n<16>8. No warranty</16>\n<17>Transaction is provided “as is”, without warranties of any kind, to the extent the law allows. Your mandatory rights as a consumer in the country where you live are not affected.</17>\n\n<18>9. Limitation of liability</18>\n<19>To the extent the law allows, the developer is not liable for indirect loss, consequential loss or lost data arising from the use of Transaction.</19>\n\n<20>10. Ending</20>\n<21>You can stop using the app and have your account deleted at any time. The licence can be ended if these terms are seriously breached.</21>\n\n<22>11. Apple</22>\n<23>If you got the app from the App Store: these terms are between you and the developer, not Apple. Apple is not responsible for Transaction or its content, and has no obligation to provide support. Apple and its subsidiaries are third-party beneficiaries of these terms and may enforce them against you. The developer, not Apple, is responsible for any product liability claim, any failure to conform to legal requirements, and any claim under consumer protection or data protection law.</23>\n\n<24>12. Google Play</24>\n<25>If you got the app from Google Play: these terms are between you and the developer, not Google, and Google is not responsible for the app.</25>\n\n<26>13. Other companies’ services</26>\n<27>Transaction can work with Apple Wallet, Apple’s Shortcuts app, your bank’s notifications and MobilePay receipts, but is not made by, endorsed by or connected to Apple, Google, your bank or MobilePay. Their names belong to their owners.</27>\n\n<28>14. Governing law</28>\n<29>Danish law applies, and disputes are settled in Denmark, where the developer lives. If you live in another country, its mandatory consumer rules still protect you, including where they let you use the courts of your own country.</29>\n\n<30>15. Changes</30>\n<31>These terms may be updated. The date at the top changes. Using the app after a change means you accept it.</31>\n\n<32>16. Contact</32>\n<33><34>transaction@thore.me</34></33>",
-  "da": "1. Accept\nVed at downloade eller bruge Transaction accepterer du disse vilkår. Er du ikke enig, så lad være med at bruge appen.\n\n2. Licens\nDu får en personlig, ikke-eksklusiv, ikke-overdragelig licens til at bruge Transaction på enheder, du ejer eller kontrollerer, i overensstemmelse med reglerne i den App Store eller Google Play, du har hentet den fra. Licensen giver dig ikke ejerskab over appen. Du må ikke videresælge, udleje, dekompilere eller forsøge at udlede kildekoden, bortset fra hvad ufravigelig lovgivning tillader.\n\n3. Din konto\nDu kan bruge appen uden en konto. Indtil du opretter en, bliver det, du gemmer, kun på din telefon, og det går tabt, hvis appen slettes. Opretter du en konto, er du ansvarlig for adgangen til den e-mailadresse eller adgangsmetode, du vælger. Du kan til enhver tid få din konto slettet. Se Slet din konto.\n\n4. Dit indhold\nDet, du gemmer, er dit. Du giver kun den tilladelse, der er nødvendig for at gemme det, synkronisere det mellem dine enheder og vise det til medlemmerne af de delte rum, du vælger at dele det i.\n\n5. En oversigt over betalinger, ikke en bank\nTransaction registrerer det, du og dine automatiseringer fortæller den. Valutakurser, gebyrer, totaler og “hvem skylder hvem” er skøn til dit eget overblik, ikke økonomisk, skattemæssig eller juridisk rådgivning, og ikke en opgørelse fra din bank. Automatiseringer kan overse en betaling eller fange den to gange. Tjek alt vigtigt mod din bank.\n\n6. Sådan må appen ikke bruges\nBrug ikke Transaction til ulovligt indhold, til at chikanere andre eller til at forsøge at få adgang til andres data eller rum. En konto, der gør det, kan blive lukket.\n\n7. Tilgængelighed\nTransaction drives som et privat projekt. Der er ingen garanteret oppetid, ingen supportfrist og ingen aftale om serviceniveau. Appen virker offline og gemmer betalinger på din telefon, indtil de synkroniseres, men brug den ikke som eneste sted, hvor noget vigtigt opbevares. Du kan eksportere dine data når som helst.\n\n8. Ingen garanti\nTransaction leveres “som den er”, uden garantier af nogen art, i det omfang loven tillader det. Dine ufravigelige rettigheder som forbruger i det land, du bor i, berøres ikke.\n\n9. Ansvarsbegrænsning\nI det omfang loven tillader det, er udvikleren ikke ansvarlig for indirekte tab, følgeskader eller tabte data som følge af brugen af Transaction.\n\n10. Ophør\nDu kan til enhver tid stoppe med at bruge appen og få din konto slettet. Licensen kan bringes til ophør, hvis vilkårene overtrædes væsentligt.\n\n11. Apple\nHar du hentet appen i App Store: disse vilkår er indgået mellem dig og udvikleren, ikke Apple. Apple er ikke ansvarlig for Transaction eller dens indhold og har ingen pligt til at yde support. Apple og Apples datterselskaber er tredjemandsberettigede under disse vilkår og kan håndhæve dem over for dig. Ved krav om produktansvar, manglende overholdelse af lovkrav eller krav efter forbruger- eller databeskyttelseslovgivning er det udvikleren, ikke Apple, der er ansvarlig.\n\n12. Google Play\nHar du hentet appen i Google Play: disse vilkår er indgået mellem dig og udvikleren, ikke Google, og Google er ikke ansvarlig for appen.\n\n13. Andre virksomheders tjenester\nTransaction kan arbejde sammen med Apple Wallet, Apples Genveje-app, din banks notifikationer og MobilePay-kvitteringer, men er ikke lavet af, godkendt af eller forbundet med Apple, Google, din bank eller MobilePay. Navnene tilhører deres ejere.\n\n14. Lovvalg\nDansk ret gælder, og tvister afgøres i Danmark, hvor udvikleren bor. Bor du i et andet land, beskytter landets ufravigelige forbrugerregler dig stadig, også hvor de giver dig ret til at bruge domstolene i dit eget land.\n\n15. Ændringer\nVilkårene kan blive opdateret. Datoen øverst ændres. Bruger du appen efter en ændring, accepterer du den.\n\n16. Kontakt\ntransaction@thore.me"
+  "en": "<1>1. Acceptance</1>\n<2>By downloading or using Yenzo you accept these terms. If you do not agree, do not use the app.</2>\n\n<3>2. Licence</3>\n<4>You get a personal, non-exclusive, non-transferable licence to use Yenzo on devices you own or control, in line with the rules of the App Store or Google Play you got it from. The licence gives you no ownership of the app. You may not resell, rent, decompile or try to derive the source code, except where mandatory law allows it.</4>\n\n<5>3. Your account</5>\n<6>You can use the app without an account. Until you create one, what you save stays only on your phone, and is lost if the app is deleted. If you create an account, you are responsible for access to the email address or sign-in method you choose. You can have your account deleted at any time. See <7>Delete your account</7>.</6>\n\n<8>4. Your content</8>\n<9>What you save is yours. You grant only the permission needed to store it, sync it between your devices, and show it to the members of any shared space you choose to share it with.</9>\n\n<10>5. A record of payments, not a bank</10>\n<11>Yenzo records what you and your automations tell it. Exchange rates, fees, totals and “who owes whom” are estimates for your own overview, not financial, tax or legal advice, and not a statement from your bank. Automations can miss a payment or catch one twice. Check anything important against your bank.</11>\n\n<12>6. How the app may not be used</12>\n<13>Do not use Yenzo for unlawful content, to harass others, or to try to reach other people’s data or spaces. An account that does may be closed.</13>\n\n<14>7. Availability</14>\n<15>Yenzo is run as a private project. There is no guaranteed uptime, no support deadline and no service-level agreement. The app works offline and keeps payments on your phone until they sync, but do not rely on it as the only place something important is kept. You can export your data at any time.</15>\n\n<16>8. No warranty</16>\n<17>Yenzo is provided “as is”, without warranties of any kind, to the extent the law allows. Your mandatory rights as a consumer in the country where you live are not affected.</17>\n\n<18>9. Limitation of liability</18>\n<19>To the extent the law allows, the developer is not liable for indirect loss, consequential loss or lost data arising from the use of Yenzo.</19>\n\n<20>10. Ending</20>\n<21>You can stop using the app and have your account deleted at any time. The licence can be ended if these terms are seriously breached.</21>\n\n<22>11. Apple</22>\n<23>If you got the app from the App Store: these terms are between you and the developer, not Apple. Apple is not responsible for Yenzo or its content, and has no obligation to provide support. Apple and its subsidiaries are third-party beneficiaries of these terms and may enforce them against you. The developer, not Apple, is responsible for any product liability claim, any failure to conform to legal requirements, and any claim under consumer protection or data protection law.</23>\n\n<24>12. Google Play</24>\n<25>If you got the app from Google Play: these terms are between you and the developer, not Google, and Google is not responsible for the app.</25>\n\n<26>13. Other companies’ services</26>\n<27>Yenzo can work with Apple Wallet, Apple’s Shortcuts app, your bank’s notifications and MobilePay receipts, but is not made by, endorsed by or connected to Apple, Google, your bank or MobilePay. Their names belong to their owners.</27>\n\n<28>14. Governing law</28>\n<29>Danish law applies, and disputes are settled in Denmark, where the developer lives. If you live in another country, its mandatory consumer rules still protect you, including where they let you use the courts of your own country.</29>\n\n<30>15. Changes</30>\n<31>These terms may be updated. The date at the top changes. Using the app after a change means you accept it.</31>\n\n<32>16. Contact</32>\n<33><34>transaction@thore.me</34></33>",
+  "da": "1. Accept\nVed at downloade eller bruge Yenzo accepterer du disse vilkår. Er du ikke enig, så lad være med at bruge appen.\n\n2. Licens\nDu får en personlig, ikke-eksklusiv, ikke-overdragelig licens til at bruge Yenzo på enheder, du ejer eller kontrollerer, i overensstemmelse med reglerne i den App Store eller Google Play, du har hentet den fra. Licensen giver dig ikke ejerskab over appen. Du må ikke videresælge, udleje, dekompilere eller forsøge at udlede kildekoden, bortset fra hvad ufravigelig lovgivning tillader.\n\n3. Din konto\nDu kan bruge appen uden en konto. Indtil du opretter en, bliver det, du gemmer, kun på din telefon, og det går tabt, hvis appen slettes. Opretter du en konto, er du ansvarlig for adgangen til den e-mailadresse eller adgangsmetode, du vælger. Du kan til enhver tid få din konto slettet. Se Slet din konto.\n\n4. Dit indhold\nDet, du gemmer, er dit. Du giver kun den tilladelse, der er nødvendig for at gemme det, synkronisere det mellem dine enheder og vise det til medlemmerne af de delte rum, du vælger at dele det i.\n\n5. En oversigt over betalinger, ikke en bank\nYenzo registrerer det, du og dine automatiseringer fortæller den. Valutakurser, gebyrer, totaler og “hvem skylder hvem” er skøn til dit eget overblik, ikke økonomisk, skattemæssig eller juridisk rådgivning, og ikke en opgørelse fra din bank. Automatiseringer kan overse en betaling eller fange den to gange. Tjek alt vigtigt mod din bank.\n\n6. Sådan må appen ikke bruges\nBrug ikke Yenzo til ulovligt indhold, til at chikanere andre eller til at forsøge at få adgang til andres data eller rum. En konto, der gør det, kan blive lukket.\n\n7. Tilgængelighed\nYenzo drives som et privat projekt. Der er ingen garanteret oppetid, ingen supportfrist og ingen aftale om serviceniveau. Appen virker offline og gemmer betalinger på din telefon, indtil de synkroniseres, men brug den ikke som eneste sted, hvor noget vigtigt opbevares. Du kan eksportere dine data når som helst.\n\n8. Ingen garanti\nYenzo leveres “som den er”, uden garantier af nogen art, i det omfang loven tillader det. Dine ufravigelige rettigheder som forbruger i det land, du bor i, berøres ikke.\n\n9. Ansvarsbegrænsning\nI det omfang loven tillader det, er udvikleren ikke ansvarlig for indirekte tab, følgeskader eller tabte data som følge af brugen af Yenzo.\n\n10. Ophør\nDu kan til enhver tid stoppe med at bruge appen og få din konto slettet. Licensen kan bringes til ophør, hvis vilkårene overtrædes væsentligt.\n\n11. Apple\nHar du hentet appen i App Store: disse vilkår er indgået mellem dig og udvikleren, ikke Apple. Apple er ikke ansvarlig for Yenzo eller dens indhold og har ingen pligt til at yde support. Apple og Apples datterselskaber er tredjemandsberettigede under disse vilkår og kan håndhæve dem over for dig. Ved krav om produktansvar, manglende overholdelse af lovkrav eller krav efter forbruger- eller databeskyttelseslovgivning er det udvikleren, ikke Apple, der er ansvarlig.\n\n12. Google Play\nHar du hentet appen i Google Play: disse vilkår er indgået mellem dig og udvikleren, ikke Google, og Google er ikke ansvarlig for appen.\n\n13. Andre virksomheders tjenester\nYenzo kan arbejde sammen med Apple Wallet, Apples Genveje-app, din banks notifikationer og MobilePay-kvitteringer, men er ikke lavet af, godkendt af eller forbundet med Apple, Google, din bank eller MobilePay. Navnene tilhører deres ejere.\n\n14. Lovvalg\nDansk ret gælder, og tvister afgøres i Danmark, hvor udvikleren bor. Bor du i et andet land, beskytter landets ufravigelige forbrugerregler dig stadig, også hvor de giver dig ret til at bruge domstolene i dit eget land.\n\n15. Ændringer\nVilkårene kan blive opdateret. Datoen øverst ændres. Bruger du appen efter en ændring, accepterer du den.\n\n16. Kontakt\ntransaction@thore.me"
  },
- "cd3461015000": {
+ "8ba2cd884fb5": {
   "page": "tos",
-  "en": "Terms of use | Transaction",
-  "da": "Vilkår for brug | Transaction"
+  "en": "Terms of use | Yenzo",
+  "da": "Vilkår for brug | Yenzo"
  },
- "02c8d174c61c": {
+ "ace348f9f12b": {
   "page": "tos",
-  "en": "Terms of use for Transaction, including the end-user licence agreement.",
-  "da": "Vilkår for brug af Transaction, inklusive slutbrugerlicensaftalen."
+  "en": "Terms of use for Yenzo, including the end-user licence agreement.",
+  "da": "Vilkår for brug af Yenzo, inklusive slutbrugerlicensaftalen."
  },
- "3f82492d487e": {
+ "d7db980bacaa": {
   "page": "delete-account",
-  "en": "You can have your Transaction account and all your data deleted at any time. It is free. In the app, go to Settings → User Information → Delete account. Your account closes at once, and its data is deleted within a day. You can also ask by email, without the app installed.",
-  "da": "Du kan til enhver tid få din Transaction-konto og alle dine data slettet. Det er gratis. I appen går du til Indstillinger → Bruger Information → Slet konto. Din konto lukkes med det samme, og dens data slettes inden for et døgn. Du kan også bede om det på e-mail uden at have appen installeret."
+  "en": "You can have your Yenzo account and all your data deleted at any time. It is free. In the app, go to Settings → User Information → Delete account. Your account closes at once, and its data is deleted within a day. You can also ask by email, without the app installed.",
+  "da": "Du kan til enhver tid få din Yenzo-konto og alle dine data slettet. Det er gratis. I appen går du til Indstillinger → Bruger Information → Slet konto. Din konto lukkes med det samme, og dens data slettes inden for et døgn. Du kan også bede om det på e-mail uden at have appen installeret."
  },
  "fe3174dc563b": {
   "page": "delete-account",
@@ -5524,15 +5524,15 @@
   "en": "Want to keep your history? Export it first under Settings → Export data. You get CSV files you can open in any spreadsheet. Photos are not included, so save the ones you want first.",
   "da": "Vil du beholde din historik? Eksportér den først under Indstillinger → Eksportér data. Du får CSV-filer, som kan åbnes i ethvert regneark. Billeder er ikke med, så gem dem, du vil have, først."
  },
- "23cb72b97661": {
+ "1c32ca6f7823": {
   "page": "delete-account",
-  "en": "Delete your account | Transaction",
-  "da": "Slet din konto | Transaction"
+  "en": "Delete your account | Yenzo",
+  "da": "Slet din konto | Yenzo"
  },
- "e4d7f3f7f910": {
+ "906767d33232": {
   "page": "delete-account",
-  "en": "How to delete your Transaction account and all your data.",
-  "da": "Sådan sletter du din Transaction-konto og alle dine data."
+  "en": "How to delete your Yenzo account and all your data.",
+  "da": "Sådan sletter du din Yenzo-konto og alle dine data."
  },
  "75861a2495bd": {
   "page": "not-found",
@@ -5549,9 +5549,9 @@
   "en": "Go to the front page",
   "da": "Gå til forsiden"
  },
- "cbc4be8a6120": {
+ "ce421821871b": {
   "page": "not-found",
-  "en": "Page not found | Transaction",
-  "da": "Siden findes ikke | Transaction"
+  "en": "Page not found | Yenzo",
+  "da": "Siden findes ikke | Yenzo"
  }
 }

@@ -39,7 +39,7 @@ export const transactions = {
     { name: L('One tap', 'Ét tryk'), text: L('A template fills the form or creates the transaction outright.', 'En skabelon udfylder formularen eller opretter transaktionen med det samme.') },
     { name: L('A few taps', 'Få tryk'), text: L('Default values and prefilled titles, merchants and payers do most of the typing.', 'Standardværdier og forudfyldte titler, butikker og betalere klarer det meste af skrivningen.') },
     { name: L('From a Wallet screenshot', 'Fra et Wallet-screenshot'), text: L('On iPhone: take a screenshot of the payment in Wallet, or pick one from your library, and the fields fill in.', 'På iPhone: tag et screenshot af betalingen i Wallet, eller vælg et i dit bibliotek, så udfyldes felterne.') },
-    { name: L('From a MobilePay receipt', 'Fra en MobilePay-kvittering'), text: L('On iPhone: share the receipt from MobilePay to Transaction, and the payment is filled in.', 'På iPhone: del kvitteringen fra MobilePay til Transaction, så udfyldes betalingen.') },
+    { name: L('From a MobilePay receipt', 'Fra en MobilePay-kvittering'), text: L('On iPhone: share the receipt from MobilePay to Yenzo, and the payment is filled in.', 'På iPhone: del kvitteringen fra MobilePay til Yenzo, så udfyldes betalingen.') },
     { name: L('From a receipt photo', 'Fra et kvitteringsfoto'), text: L('The receipt lines and the total are read on the phone.', 'Kvitteringslinjerne og totalen læses på telefonen.') },
   ],
   casesTitle: L('Tricky ones, solved', 'Svære tilfælde, løst'),
@@ -120,7 +120,7 @@ export const incomingPayments = {
 };
 
 export const automation = {
-  title: L('Payments that save themselves.', 'Betalinger, der gemmes automatisk i Transaction app.'),
+  title: L('Payments that save themselves.', 'Betalinger, der gemmes automatisk i Yenzo app.'),
   intro: L(
     'The best transaction is the one you never had to type. Set it up once, and every Apple Wallet payment (and payment notifications from your bank) turns into a transaction with more detail than your bank will ever show.',
     'Den bedste transaktion er den, du aldrig skulle skrive. Sæt det op én gang, så bliver hver Apple Wallet-betaling (og betalingsnotifikationer fra din bank) til en transaktion med flere detaljer, end din bank nogensinde viser.'
@@ -165,8 +165,8 @@ export const automation = {
     'På iPhone kan en transaktion også oprettes fra din bankapps notifikationer, når du har sat en automatisering op i Genveje-appen. Trinene står i appens indstillinger.'
   ),
   notifAndroid: L(
-    'Your bank and wallet apps already tell you about every payment. On Android, give Transaction notification access once, and choose in Settings what happens with each payment it catches: wait for the import button, fill in the form, or save it straight away. Pay with your card or Google Pay, open the app, and the transaction is there. The app does not even need to be open when you pay.',
-    'Din bank- og wallet-app fortæller dig allerede om hver betaling. På Android giver du Transaction notifikationsadgang én gang og vælger i indstillingerne, hvad der sker med hver betaling, den fanger: vent på import-knappen, udfyld formularen, eller gem den med det samme. Betal med dit kort eller Google Pay, åbn appen, så er transaktionen der. Appen behøver ikke engang at være åben, når du betaler.'
+    'Your bank and wallet apps already tell you about every payment. On Android, give Yenzo notification access once, and choose in Settings what happens with each payment it catches: wait for the import button, fill in the form, or save it straight away. Pay with your card or Google Pay, open the app, and the transaction is there. The app does not even need to be open when you pay.',
+    'Din bank- og wallet-app fortæller dig allerede om hver betaling. På Android giver du Yenzo notifikationsadgang én gang og vælger i indstillingerne, hvad der sker med hver betaling, den fanger: vent på import-knappen, udfyld formularen, eller gem den med det samme. Betal med dit kort eller Google Pay, åbn appen, så er transaktionen der. Appen behøver ikke engang at være åben, når du betaler.'
   ),
   safetyTitle: L('Built not to lose a payment', 'Bygget til ikke at miste en betaling'),
   safety: [
@@ -186,8 +186,8 @@ export const automation = {
 export const travelPage = {
   title: L('Travelling together, keeping it loose.', 'På tur sammen, og hold det løst.'),
   intro: L(
-    'Four friends, two days in Lissabon. Nobody wants to split every receipt. Here is how the trip looks in Transaction.',
-    'Fire venner, to dage i Lissabon. Ingen gider dele hver eneste kvittering. Sådan ser turen ud i Transaction.'
+    'Four friends, two days in Lissabon. Nobody wants to split every receipt. Here is how the trip looks in Yenzo.',
+    'Fire venner, to dage i Lissabon. Ingen gider dele hver eneste kvittering. Sådan ser turen ud i Yenzo.'
   ),
   private: L(
     'It can also be your own private accounting. Nobody else has to see what you fill in, or even have the app. It is just for you: a quiet reminder of when you are behind, so you know the next dinner is on you.',
@@ -250,8 +250,8 @@ export const travelPage = {
   ),
   honestTitle: L('When to use something else', 'Hvornår du skal bruge noget andet'),
   honest: L(
-    'If your group wants every share exact to the cent and a clean settle-up at the end, use MobilePay groups or a similar app. Transaction is for groups who take turns and keep it roughly even.',
-    'Hvis gruppen vil have hver andel præcis på øren og en ren afregning til sidst, så brug MobilePay-grupper eller en lignende app. Transaction er til grupper, der skiftes og holder det cirka lige.'
+    'If your group wants every share exact to the cent and a clean settle-up at the end, use MobilePay groups or a similar app. Yenzo is for groups who take turns and keep it roughly even.',
+    'Hvis gruppen vil have hver andel præcis på øren og en ren afregning til sidst, så brug MobilePay-grupper eller en lignende app. Yenzo er til grupper, der skiftes og holder det cirka lige.'
   ),
 };
 
@@ -282,8 +282,8 @@ export const features = {
         F(
           'Apple Wallet payments become transactions through a Shortcuts automation: fill the form, save with the app open, or save in the background.',
           'Apple Wallet-betalinger bliver til transaktioner via en Genveje-automatisering: udfyld formularen, gem med appen åben, eller gem i baggrunden.',
-          'Set up one automation in Apple’s Shortcuts app, and every time you tap to pay, the amount, the shop and the card go straight to Transaction. You choose what happens next: the form is filled in for you to check, the payment is saved at once, or it is saved quietly in the background. The first two need the app already open in the background, since it does not open by itself. A coffee at Café Lua is in the app before the cup is on the table.',
-          'Sæt én automatisering op i Apples Genveje-app, så går beløb, butik og kort direkte til Transaction, hver gang du betaler med et tryk. Du vælger selv, hvad der sker bagefter: formularen udfyldes, så du kan tjekke den, betalingen gemmes med det samme, eller den gemmes stille i baggrunden. De to første kræver, at appen allerede er åben i baggrunden, for den åbner ikke af sig selv. En kaffe på Café Lua er i appen, før koppen står på bordet.',
+          'Set up one automation in Apple’s Shortcuts app, and every time you tap to pay, the amount, the shop and the card go straight to Yenzo. You choose what happens next: the form is filled in for you to check, the payment is saved at once, or it is saved quietly in the background. The first two need the app already open in the background, since it does not open by itself. A coffee at Café Lua is in the app before the cup is on the table.',
+          'Sæt én automatisering op i Apples Genveje-app, så går beløb, butik og kort direkte til Yenzo, hver gang du betaler med et tryk. Du vælger selv, hvad der sker bagefter: formularen udfyldes, så du kan tjekke den, betalingen gemmes med det samme, eller den gemmes stille i baggrunden. De to første kræver, at appen allerede er åben i baggrunden, for den åbner ikke af sig selv. En kaffe på Café Lua er i appen, før koppen står på bordet.',
           'automation'
         ),
         F(
@@ -303,15 +303,15 @@ export const features = {
         F(
           'Payment notifications on iPhone: one bank app read reliably, plus two general readers for any other app.',
           'Betalingsnotifikationer på iPhone: én bankapp læst sikkert plus to generelle læsere til alle andre apps.',
-          'Many banks send a notification for every card payment. An automation in the Shortcuts app hands each one to Transaction, which picks out the amount, the currency and the shop. One bank app is read reliably, including the rate the bank used abroad. For every other app, two general readers do their best, one for English and one for all languages. A notification that is not a payment is simply skipped, and the steps are in the app’s Settings.',
-          'Mange banker sender en notifikation for hver kortbetaling. En automatisering i Genveje-appen giver hver af dem videre til Transaction, som finder beløbet, valutaen og butikken. Én bankapp læses sikkert, også med den kurs, banken brugte i udlandet. Til alle andre apps gør to generelle læsere deres bedste, én til engelsk og én til alle sprog. En notifikation, der ikke er en betaling, springes bare over, og trinene står i appens indstillinger.',
+          'Many banks send a notification for every card payment. An automation in the Shortcuts app hands each one to Yenzo, which picks out the amount, the currency and the shop. One bank app is read reliably, including the rate the bank used abroad. For every other app, two general readers do their best, one for English and one for all languages. A notification that is not a payment is simply skipped, and the steps are in the app’s Settings.',
+          'Mange banker sender en notifikation for hver kortbetaling. En automatisering i Genveje-appen giver hver af dem videre til Yenzo, som finder beløbet, valutaen og butikken. Én bankapp læses sikkert, også med den kurs, banken brugte i udlandet. Til alle andre apps gør to generelle læsere deres bedste, én til engelsk og én til alle sprog. En notifikation, der ikke er en betaling, springes bare over, og trinene står i appens indstillinger.',
           'shortcut-guide'
         ),
         F(
           'Payment notifications on Android, with three modes: import button only, fill the form, or fill and save.',
           'Betalingsnotifikationer på Android med tre tilstande: kun import-knap, udfyld formularen eller udfyld og gem.',
-          'Give Transaction notification access once, and payment notifications from your bank and wallet apps are caught in the background, even with the app closed. Choose what happens with them: wait for the import button, fill in the form, or save straight away. Only clear payment notifications are used automatically; anything uncertain waits for you. Nothing is linked to your bank.',
-          'Giv Transaction notifikationsadgang én gang, så fanges betalingsnotifikationer fra dine bank- og wallet-apps i baggrunden, også når appen er lukket. Vælg, hvad der sker med dem: vent på import-knappen, udfyld formularen, eller gem med det samme. Kun tydelige betalingsnotifikationer bruges automatisk; alt usikkert venter på dig. Intet bliver koblet til din bank.',
+          'Give Yenzo notification access once, and payment notifications from your bank and wallet apps are caught in the background, even with the app closed. Choose what happens with them: wait for the import button, fill in the form, or save straight away. Only clear payment notifications are used automatically; anything uncertain waits for you. Nothing is linked to your bank.',
+          'Giv Yenzo notifikationsadgang én gang, så fanges betalingsnotifikationer fra dine bank- og wallet-apps i baggrunden, også når appen er lukket. Vælg, hvad der sker med dem: vent på import-knappen, udfyld formularen, eller gem med det samme. Kun tydelige betalingsnotifikationer bruges automatisk; alt usikkert venter på dig. Intet bliver koblet til din bank.',
           'automation'
         ),
         F(
@@ -322,10 +322,10 @@ export const features = {
           'transactions'
         ),
         F(
-          'Share a receipt from a supported payment app to Transaction from the share sheet: money you sent becomes a transaction, money you received an incoming payment, with the receipt attached (iPhone).',
-          'Del en kvittering fra MobilePay til Transaction fra delingsarket: penge, du har sendt, bliver til en transaktion, og penge, du har modtaget, til en indgående betaling, med kvitteringen vedhæftet (iPhone).',
-          'Open a receipt in the payment app, tap share and pick Transaction. The amount, the date, the other person and the receipt image are filled in for you, and fees and reference numbers go into the imported details instead of your notes. It follows the same save setting as the Apple Pay automation, so it can fill the form or save at once.',
-          'Åbn en kvittering i MobilePay, tryk del, og vælg Transaction. Beløb, dato, den anden person og kvitteringsbilledet udfyldes for dig, og gebyr og referencenumre lægges i de importerede oplysninger i stedet for i dine noter. Det følger den samme gem-indstilling som Apple Pay-automatiseringen, så det kan udfylde formularen eller gemme med det samme.',
+          'Share a receipt from a supported payment app to Yenzo from the share sheet: money you sent becomes a transaction, money you received an incoming payment, with the receipt attached (iPhone).',
+          'Del en kvittering fra MobilePay til Yenzo fra delingsarket: penge, du har sendt, bliver til en transaktion, og penge, du har modtaget, til en indgående betaling, med kvitteringen vedhæftet (iPhone).',
+          'Open a receipt in the payment app, tap share and pick Yenzo. The amount, the date, the other person and the receipt image are filled in for you, and fees and reference numbers go into the imported details instead of your notes. It follows the same save setting as the Apple Pay automation, so it can fill the form or save at once.',
+          'Åbn en kvittering i MobilePay, tryk del, og vælg Yenzo. Beløb, dato, den anden person og kvitteringsbilledet udfyldes for dig, og gebyr og referencenumre lægges i de importerede oplysninger i stedet for i dine noter. Det følger den samme gem-indstilling som Apple Pay-automatiseringen, så det kan udfylde formularen eller gemme med det samme.',
           'transactions'
         ),
         F(
@@ -503,8 +503,8 @@ export const features = {
         F(
           'Today’s spend on your watch face.',
           'Dagens forbrug på din urskive.',
-          'Put Transaction on your watch face to see what you have spent today in your main currency, the watch’s own new payments included. It starts over at zero at midnight, and a tap opens the keypad.',
-          'Sæt Transaction på din urskive for at se, hvad du har brugt i dag i din hovedvaluta, inklusive urets egne nye betalinger. Den starter forfra på nul ved midnat, og et tryk åbner tastaturet.',
+          'Put Yenzo on your watch face to see what you have spent today in your main currency, the watch’s own new payments included. It starts over at zero at midnight, and a tap opens the keypad.',
+          'Sæt Yenzo på din urskive for at se, hvad du har brugt i dag i din hovedvaluta, inklusive urets egne nye betalinger. Den starter forfra på nul ved midnat, og et tryk åbner tastaturet.',
           'watch'
         ),
         F(
@@ -1044,16 +1044,16 @@ export const story = {
     when: L('October 2025.', 'Oktober 2025.'),
     line: L('Private beta. Tested in real life ever since.', 'Privat beta. Testet i det virkelige liv lige siden.'),
     text: L(
-      'Transaction went into private beta in October 2025. Since then it has been tested where it counts: the coffee in the morning, the dinner on holiday, the cash in the pocket and the money that came back. Every feature on this page is here because a real payment needed it.',
-      'Transaction gik i privat beta i oktober 2025. Siden da er den testet dér, hvor det tæller: kaffen om morgenen, middagen på ferien, kontanterne i lommen og pengene, der kom tilbage. Hver funktion på denne side er her, fordi en rigtig betaling havde brug for den.'
+      'Yenzo went into private beta in October 2025. Since then it has been tested where it counts: the coffee in the morning, the dinner on holiday, the cash in the pocket and the money that came back. Every feature on this page is here because a real payment needed it.',
+      'Yenzo gik i privat beta i oktober 2025. Siden da er den testet dér, hvor det tæller: kaffen om morgenen, middagen på ferien, kontanterne i lommen og pengene, der kom tilbage. Hver funktion på denne side er her, fordi en rigtig betaling havde brug for den.'
     ),
   },
   next: {
     eyebrow: L('What comes next', 'Det, der kommer'),
     title: L('The next chapter: the whole picture.', 'Det næste kapitel: hele billedet.'),
     text: L(
-      'Later, Transaction gets a website. Sign in, and everything you saved in the app is there, on a big screen. And it does not stop there: you can let it read more sources. The receipts in your email. The statement from your bank. Only the ones you say yes to.',
-      'Senere får Transaction en hjemmeside. Når du er inde, ligger alt det, du har gemt i appen, dér, på en stor skærm. Og det stopper ikke dér: Du kan give den lov til at læse flere kilder. Kvitteringerne i din mail. Kontoudtoget fra din bank. Kun dem, du siger ja til.'
+      'Later, Yenzo gets a website. Sign in, and everything you saved in the app is there, on a big screen. And it does not stop there: you can let it read more sources. The receipts in your email. The statement from your bank. Only the ones you say yes to.',
+      'Senere får Yenzo en hjemmeside. Når du er inde, ligger alt det, du har gemt i appen, dér, på en stor skærm. Og det stopper ikke dér: Du kan give den lov til at læse flere kilder. Kvitteringerne i din mail. Kontoudtoget fra din bank. Kun dem, du siger ja til.'
     ),
     sources: [L('The app', 'Appen'), L('Email receipts', 'Kvitteringer i mailen'), L('Bank statements', 'Kontoudtog')],
     ideas: [
@@ -1113,8 +1113,8 @@ export const story = {
   now: {
     title: L('But first: collect the payments.', 'Men først: saml betalingerne.'),
     text: L(
-      'Every idea above needs one thing, and it is the one thing nobody can add afterwards: the data. So right now Transaction does one job as well as it can. Every coffee, every dinner, every tip in cash, with the place and the time. When the data is there, all the rest can come.',
-      'Hver idé herover kræver én ting, og det er den eneste ting, ingen kan tilføje bagefter: dataene. Så lige nu gør Transaction ét job, så godt den kan. Hver kaffe, hver middag, alle drikkepengene i kontanter, med sted og tidspunkt. Når dataene er der, kan alt det andet komme.'
+      'Every idea above needs one thing, and it is the one thing nobody can add afterwards: the data. So right now Yenzo does one job as well as it can. Every coffee, every dinner, every tip in cash, with the place and the time. When the data is there, all the rest can come.',
+      'Hver idé herover kræver én ting, og det er den eneste ting, ingen kan tilføje bagefter: dataene. Så lige nu gør Yenzo ét job, så godt den kan. Hver kaffe, hver middag, alle drikkepengene i kontanter, med sted og tidspunkt. Når dataene er der, kan alt det andet komme.'
     ),
     punch: L('The best day to start collecting was yesterday. The second best is today.', 'Den bedste dag at begynde at samle var i går. Den næstbedste er i dag.'),
   },
@@ -1135,8 +1135,8 @@ export const currencies = {
   ],
   sourceTitle: L('Fetched for the day you paid', 'Hentet til den dag, du betalte'),
   source: L(
-    'You never look up a rate. When you add or edit a payment in another currency, Transaction fetches the official rate for that exact day. Not an average, and not today’s.',
-    'Du slår aldrig en kurs op. Når du tilføjer eller ændrer en betaling i en anden valuta, henter Transaction den officielle kurs for præcis den dag. Ikke et gennemsnit og ikke dagens.'
+    'You never look up a rate. When you add or edit a payment in another currency, Yenzo fetches the official rate for that exact day. Not an average, and not today’s.',
+    'Du slår aldrig en kurs op. Når du tilføjer eller ændrer en betaling i en anden valuta, henter Yenzo den officielle kurs for præcis den dag. Ikke et gennemsnit og ikke dagens.'
   ),
   sourcePoints: [
     { name: L('On the spot', 'På stedet'), text: L('The rate for the payment date is fetched when you save the payment, even if the payment is years old.', 'Kursen for betalingsdatoen hentes, når du gemmer betalingen, også hvis betalingen er flere år gammel.') },
@@ -1389,8 +1389,8 @@ export const customFieldsPage = {
 export const prefilledPage = {
   title: L('Prefilled values. Type it once.', 'Forudfyldte værdier. Skriv det én gang.'),
   intro: L(
-    'Most payments look like the last one. Transaction keeps your own lists of titles, merchants and payers, and starts every form with your default values.',
-    'De fleste betalinger ligner den forrige. Transaction husker dine egne lister med titler, butikker og betalere og starter hver formular med dine standardværdier.'
+    'Most payments look like the last one. Yenzo keeps your own lists of titles, merchants and payers, and starts every form with your default values.',
+    'De fleste betalinger ligner den forrige. Yenzo husker dine egne lister med titler, butikker og betalere og starter hver formular med dine standardværdier.'
   ),
   sections: [
     {
@@ -1490,8 +1490,8 @@ export const watchPage = {
     {
       title: L('Today’s spend, on your watch face.', 'Dagens forbrug, på din urskive.'),
       text: L(
-        'Put Transaction on your watch face, and it shows what you have spent today in your main currency, the watch’s own new payments included. It starts over at zero at midnight, and a tap opens the keypad.',
-        'Sæt Transaction på din urskive, så viser den, hvad du har brugt i dag i din hovedvaluta, inklusive urets egne nye betalinger. Den starter forfra på nul ved midnat, og et tryk åbner tastaturet.'
+        'Put Yenzo on your watch face, and it shows what you have spent today in your main currency, the watch’s own new payments included. It starts over at zero at midnight, and a tap opens the keypad.',
+        'Sæt Yenzo på din urskive, så viser den, hvad du har brugt i dag i din hovedvaluta, inklusive urets egne nye betalinger. Den starter forfra på nul ved midnat, og et tryk åbner tastaturet.'
       ),
     },
     {
@@ -1540,17 +1540,17 @@ export const offlinePage = {
 };
 
 export const shortcutGuidePage = {
-  title: L('Connect Transaction to Shortcuts, step by step.', 'Forbind Transaction med Genveje, trin for trin.'),
+  title: L('Connect Yenzo to Shortcuts, step by step.', 'Forbind Yenzo med Genveje, trin for trin.'),
   intro: L(
-    'Four automations, with every screen along the way: first what to do in the Transaction app, then exactly how the shortcut should look, and finally the green banner when it works.',
-    'Fire automatiseringer, med alle skærmbilleder undervejs: først hvad du gør i Transaction-appen, så præcis hvordan genvejen skal se ud, og til sidst det grønne banner, når det virker.'
+    'Four automations, with every screen along the way: first what to do in the Yenzo app, then exactly how the shortcut should look, and finally the green banner when it works.',
+    'Fire automatiseringer, med alle skærmbilleder undervejs: først hvad du gør i Yenzo-appen, så præcis hvordan genvejen skal se ud, og til sidst det grønne banner, når det virker.'
   ),
   note: L(
-    'The screenshots are from iOS 27, in English. In another language Apple’s buttons have other names, but they sit in the same places. Transaction’s own actions have the same English names on every phone.',
-    'Skærmbillederne er fra iOS 27 og på engelsk. På dansk hedder Apples knapper noget andet, men de sidder samme sted. Transactions egne handlinger har de samme engelske navne på alle telefoner.'
+    'The screenshots are from iOS 27, in English. In another language Apple’s buttons have other names, but they sit in the same places. Yenzo’s own actions have the same English names on every phone.',
+    'Skærmbillederne er fra iOS 27 og på engelsk. På dansk hedder Apples knapper noget andet, men de sidder samme sted. Yenzos egne handlinger har de samme engelske navne på alle telefoner.'
   ),
   parts: {
-    app: L('In the Transaction app', 'I Transaction-appen'),
+    app: L('In the Yenzo app', 'I Yenzo-appen'),
     shortcuts: L('In Shortcuts', 'I Genveje'),
     works: L('When it works', 'Når det virker'),
   },
@@ -1655,8 +1655,8 @@ export const shortcutGuidePage = {
       general: true,
       title: L('A notification from Nordea', 'En notifikation fra Nordea'),
       intro: L(
-        'Nordea Mobile sends a notification when you pay by card in a foreign currency. The automation hands it to Transaction, which reads the amount, the currency and the shop. There is no location step here, so payments made online work too. The Notification trigger needs iOS 27.',
-        'Nordea Mobile sender en notifikation, når du betaler med kort i en fremmed valuta. Automatiseringen giver den videre til Transaction, som læser beløbet, valutaen og butikken. Her er intet placeringstrin, så betalinger online virker også. Notification-udløseren kræver iOS 27.'
+        'Nordea Mobile sends a notification when you pay by card in a foreign currency. The automation hands it to Yenzo, which reads the amount, the currency and the shop. There is no location step here, so payments made online work too. The Notification trigger needs iOS 27.',
+        'Nordea Mobile sender en notifikation, når du betaler med kort i en fremmed valuta. Automatiseringen giver den videre til Yenzo, som læser beløbet, valutaen og butikken. Her er intet placeringstrin, så betalinger online virker også. Notification-udløseren kræver iOS 27.'
       ),
       app: [
         { s: 'sources', t: L('Settings, Create transactions from notifications. There is nothing to switch on: building the automation is all it takes.', 'Indstillinger, Opret transaktioner fra notifikationer. Der er intet at slå til: Det er nok at bygge automatiseringen.') },
